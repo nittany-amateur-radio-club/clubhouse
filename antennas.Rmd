@@ -1,0 +1,56 @@
+---
+title: "Antennas"
+author: "Rick Gilmore (K3ROG)"
+date: "`r Sys.time()`"
+output:
+  html_document:
+    toc: true
+    toc_depth: 3
+    toc_float: true
+    number_sections: true
+    self_contained: false
+---
+
+# Antenna descriptions by band
+
+## 10, 12, 15, 17, 20 m
+
+- Triband (10, 15, 20m + WARC) Yagi (@ 60')
+    - Rotor
+- ~~Triband (10, 15, 20m + WARC) Yagi (@ 80')~~ temporarily out of service
+    - Rotor
+    
+ADD PHOTO
+    
+## 40 m
+
+- Dipole (@ 60') oriented...
+- Dipole (@ 80') oriented...
+
+ADD PHOTOS
+
+## 60 m
+
+- Dipole (@ ??') oriented
+
+ADD PHOTO
+
+
+## 80 m 
+
+- For CW
+- Dipole (@ ??') oriented
+
+ADD PHOTO
+
+## 160 m
+
+- ~~Dipole (@ ??')~~ temporarily out of service
+
+ADD PHOTO
+
+# Use
+
+- Confirm that it is impossible for your transceiver to transmit while you are connecting your transceiver's (color-tagged) feedline to one of the antenna connectors.
+- Switch antennas manually by connecting your radio feedline from array of antenna connectors on the north wall.
+- When you leave the shack, disconnect the transceiver feedline from the antenna you were using.
