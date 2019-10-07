@@ -77,14 +77,16 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## Last month's activities
 
-- Simulated Emergency Test (SET), 2019-10-05
-- Cabinets arrived; installation in progress
+- Simulated Emergency Test (SET), 2019-10-05.
+- Antenna rotor cables fed from attic into shack; rotors tested.
+- Cabinets arrived; installation in progress.
 
 ## Quick-start guides
 
-- [Clubhouse guide](https://nittany-amateur-radio-club.github.io/clubhouse-guide.html)
-- [IC-7610](https://nittany-amateur-radio-club.github.io/IC-7610.html)
-- [Elecraft K3S](https://nittany-amateur-radio-club.github.io/elecraft-k3s.html)
+- [Clubhouse guide](https://nittany-amateur-radio-club.github.io/clubhouse/clubhouse-guide.html)
+- [IC-7610](https://nittany-amateur-radio-club.github.io/clubhouse/IC-7610.html)
+- [Elecraft K3S](https://nittany-amateur-radio-club.github.io/clubhouse/elecraft-k3s.html)
+- [Elecraft KPA1500 amplifier](https://nittany-amateur-radio-club.github.io/clubhouse/KPA1500.html)
 
 ## Upcoming events
 

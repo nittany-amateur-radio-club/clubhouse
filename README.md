@@ -4,8 +4,8 @@ Files related to use of the NARC mountaintop clubhouse.
 
 ## Operation/equipment guides
 
-- Clubhouse [guide](clubhouse-guide.html)
-- Antenna [guide](antennas.html)
+- Clubhouse [guide](https://nittany-amateur-radio-club.github.io/clubhouse/clubhouse-guide.html)
+- Antenna [guide](https://nittany-amateur-radio-club.github.io/clubhouse/clubhouse/antennas.html)
 
 ## Reports
 
