@@ -1,0 +1,29 @@
+---
+title: "Elecraft K3S"
+author: "Rick Gilmore K3ROG"
+date: "`r Sys.time()`"
+output: html_document
+---
+
+## Elecraft K3S
+
+### Equipment summary
+
+- Elecraft K3S (HF + 6m) transceiver
+  - Astron power supply
+- Elecraft KPA1500
+  - Power supply
+- Elecraft P3 Panadapter
+- Footswitch on the floor.
+- Heil Pro 7 headset.
+- Bencher BY-1 paddle.
+- Windows 10 PC, single monitor set-up, dual monitor capable
+  - WSTJ-X, JS8Call, fldigi, N1MM, N3FJP
+
+### Connect and power-up
+
+- Connect the UPS to the wall power outlet.
+- Connect the 240 V Elecraft KPA1500 power supply cable to the 240 V supply.
+- Power up the Astron RS-35A power supply by pressing the red 'on' switch on the lower left front part of the panel.
+- Power up the K3S.
+- Power up the KPA1500 by pressing the 'On' switch on the lower right panel.

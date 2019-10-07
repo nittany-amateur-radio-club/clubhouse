@@ -1,0 +1,85 @@
+---
+title: "WSJT-X Operations on K3S"
+author: "Rick Gilmore K3ROG"
+date: "`r Sys.time()`"
+output: html_document
+---
+
+### WSTJ-X on IC-7610
+
+#### On the PC
+
+1. Open WSTJ-X (Icon is on desktop).
+
+**Note**: If you will be using the rig regularly, you may wish to clone an existing Configuration set and edit it for your particular use. 
+From the Configurations menu, choose a source Configuration, e.g., Standard Ops, select “Clone”, then from the Configurations menu, choose the clone, and switch to it by selecting the “Switch To” menu item. 
+When WSTJ-X reopens with the new Configurations set, open Settings from File/Settings menu and confirm the settings.
+
+2. Confirm settings
+
+(It’s not essential to confirm the settings each time you start up, but doing so will make sure that you are able to operate without difficulty.)
+
+Open Settings from File/Settings menu and confirm the settings.
+
+*General tab:*
+
+Set my Call to your personal callsign unless you have permission to use the club callsign (W3YA). 
+Set any Display or Behavior settings per your personal preferences.
+
+*Radio tab:*
+
+Rig: Elecraft K3S</br>
+CAT Control: COM3</br>
+Baud Rate: 19200</br>
+8 bits, 1 stop bit, none</br>
+
+Force Control Lines: unset</br>
+PTT method: CAT (port should be COM3)</br>
+Mode: Data/pkt</br>
+Split operation: Rig or Fake It</br>
+
+*Audio tab:*
+Input: USB Audio Codec</br>
+Output: USB Audio Codec</br>
+
+*Advanced tab*:
+
+Check or uncheck Special Operating Activity per situation.
+
+3. Check clock accuracy
+
+Open browser, visit https://time.is
+
+If you have a cellular hotspot, connect it to the HUB, power the HUB, wait for the computers to establish an internet connection, and allow the Meinberg time server to update the time
+
+#### On K3S
+
+1. Confirm rig is in Data A mode (if necessary, hit MODE button to cycle to data mode; indicator will be near Tx icon on right side of the display).
+
+Press (and hold) the DATA MD button on the middle right of the panel.
+Using the VFO B knob, select DATA A (not AFSK A).
+Press DATA MD again to enter change.
+
+2. Set bandwidth to maximum (4 kHz) by rotating WIDTH knob (above and to the left of the VFO A knob) clockwise until the screen shows a 4.0 bandwidth.
+
+3. Set MIC SEL to LINE; set level to 30 (midrange)
+
+4. Set ALC. 
+
+From within WSTJ-X, hit Tune button; adjust audio level from computer “speaker” slider and WSTJ-X Power slider until ALC meter reads about 4 bars. Then adjust K3S mic gain to produce 4 bars solid with the 5th bar flickering.
+
+Adjust transmit power via Power knob on K3S.
+Remember, WSJT-X is a weak signal mode. 
+Less than 50 W is plenty.
+ 
+#### On KPA1500
+
+1. For < 100W output, set amplifier to STBY mode (yellow light) by pressing MODE button to toggle between STBY and OPER. 
+
+For higher power output, follow separate instructions for tuning the KPA1500 amplifier.
+
+2. Confirm ANT1 is output (press ANTENNA to toggle).
+
+3. Confirm ATU is IN (not BYP) by pressing and holding ATU TUNE button. 
+
+Have fun!
