@@ -5,7 +5,7 @@ date: "`r Sys.time()`"
 output: html_document
 ---
 
-## IC-7610
+## IC-7610 HF Transceiver
 
 ### Equipment summary
 
@@ -16,8 +16,8 @@ output: html_document
 - Windows 10 PC, dual monitor set-up
   - WSTJ-X, JS8Call, fldigi, N1MM, N3FJP
 - The default configuration uses the ICOM SM-50 desk mic.
-- There is a Clipper footswitch for the PTT on the floor.
-- There is a Heil headset.
+- Clipper footswitch for the PTT on the floor.
+- Heil headset.
 - We have a Nifty Mini-manual and other manuals are located in the drawer under the radio.
 
 ### Connect equipment and power-up
@@ -40,11 +40,5 @@ output: html_document
 
 - The IC-7610 is connected via USB to the NARC-1 PC.
 - Open your logging program of choice. NARC has licenses for N1MM and N3FJP's Amateur Contact Log.
-- To operate digital modes (e.g., FT8/FT4, JS8Call, fldigi), open those programs. See instructions for operating these modes below.
-
-### Accessories
-
-- The default configuration uses the ICOM SM-50 desk mic.
-- There is a Clipper footswitch for the PTT on the floor.
-- There is a Heil headset.
-- We have a Nifty Mini-manual and other manuals are located in the drawer under the radio.
+- To operate digital modes (e.g., FT8/FT4, JS8Call, fldigi), open those programs. 
+See instructions for operating these modes in separate documents.
