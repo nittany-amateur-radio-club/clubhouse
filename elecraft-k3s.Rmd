@@ -10,9 +10,9 @@ output: html_document
 ### Equipment summary
 
 - Elecraft K3S (HF + 6m) transceiver
-  - Astron power supply
+  - Astron RS-35A power supply
 - Elecraft KPA1500
-  - Power supply
+  - Elecraft power supply
 - Elecraft P3 Panadapter
 - Footswitch on the floor.
 - Heil Pro 7 headset.
