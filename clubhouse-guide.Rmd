@@ -8,6 +8,7 @@ output:
     toc_depth: 5
     toc_float: true
     self_contained: false
+    code_folding: hide
   pdf_document: default
 ---
 
@@ -32,7 +33,7 @@ Please report any issues that need to be addressed.
 # Equipment setup
 
 <!-- Icom IC-7610 -->
-```{r k3s, child = 'IC-7610.Rmd'}
+```{r ic-7610, child = 'IC-7610.Rmd'}
 ```
 
 <!-- Elecraft K3S -->
@@ -47,15 +48,24 @@ Please report any issues that need to be addressed.
 
 ## WSTJ-X
 
-```{r, child='WSTJ-X-IC-7610.Rmd'}
+```{r wsjt-x-ic-7610, child='WSJT-X-IC-7610.Rmd'}
 ```
 
-```{r, child='WSTJ-X-K3S.Rmd'}
+```{r wstj-x-k3s, child='WSJT-X-K3S.Rmd'}
 ```
 
-## flidigi
+## fldigi
+
+```{r fldigi-ic-7610, child='fldigi-IC-7610.Rmd'}
+```
+
+```{r fldigi-k3s, child='fldigi-K3S.Rmd'}
+```
 
 ## Phone
+
+```{r, child='SSB-IC-7610.Rmd'}
+```
 
 ## CW
 
@@ -64,14 +74,19 @@ Please report any issues that need to be addressed.
 # Departure procedures
 
 - Power down all the equipment you used.
-- Turn off the UPS and unplug it from the wall sockets.
-- Unplug the power amplifier power supplies from the wall sockets.
+- Turn off the UPS.
+    - For the NARC1/IC-7610 station, press and hold the UPS Power button until you hear a single beep.
+    - For the NARC2/K3S station, press and hold the UPS Power button until you hear one long and two short beeps.
+- Unplug the UPS from the wall sockets.
+- Unplug the 220 V power amplifier power supplies from the wall sockets.
 - Unplug the antenna rotator power supplies from the wall sockets.
 - Turn breakers 7-14 -- the baseboard and north wall 240 V heaters -- **off**.
 - Return the porta potty key to the desktop to the right side of the door.
-- Take the padlock to the gate with you.
-- As you leave the shack, close and lock the door by turning the key to the right (clockwise). Check again to confirm that the door is closed and locked.
+- Take the padlock to the gate with you and the L-shaped latch if you did not leave it in the gate.
+- As you leave the shack, close and lock the door by turning the key to the right (clockwise). 
+Check again to confirm that the door is closed and locked.
 - As you reach the gate, stop, remove the lock bar, and swing the gate out of the way.
 - Drive through and stop just outside the gate.
 - Swing the gate back into closed position. Place the lock bar in position, and lock the gate.
-- Please text Rick K3ROG (814-777-3298), Eric W3EDP (814-867-3393), or Mike N3LI (814-404-3991,) when you leave. Please report any issues that need to be addressed.
+- Please text Rick K3ROG (814-777-3298), Eric W3EDP (814-867-3393), or Mike N3LI (814-404-3991,) when you leave. 
+Please report any issues that need to be addressed.

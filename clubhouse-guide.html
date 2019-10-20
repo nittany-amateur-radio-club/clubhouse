@@ -24,6 +24,7 @@
 <link href="clubhouse-guide_files/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
 <script src="clubhouse-guide_files/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="clubhouse-guide_files/navigation-1.1/tabsets.js"></script>
+<script src="clubhouse-guide_files/navigation-1.1/codefolding.js"></script>
 <link href="clubhouse-guide_files/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="clubhouse-guide_files/highlightjs-9.12.0/highlight.js"></script>
 
@@ -174,6 +175,14 @@ $(document).ready(function () {
 </script>
 
 <!-- code folding -->
+<style type="text/css">
+.code-folding-btn { margin-bottom: 4px; }
+</style>
+<script>
+$(document).ready(function () {
+  window.initializeCodeFolding("hide" === "show");
+});
+</script>
 
 
 
@@ -284,11 +293,19 @@ div.tocify {
 
 <div class="fluid-row" id="header">
 
+<div class="btn-group pull-right">
+<button type="button" class="btn btn-default btn-xs dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span>Code</span> <span class="caret"></span></button>
+<ul class="dropdown-menu" style="min-width: 50px;">
+<li><a id="rmd-show-all-code" href="#">Show All Code</a></li>
+<li><a id="rmd-hide-all-code" href="#">Hide All Code</a></li>
+</ul>
+</div>
+
 
 
 <h1 class="title toc-ignore">NARC clubhouse guide</h1>
 <h4 class="author">Rick Gilmore K3ROG</h4>
-<h4 class="date">2019-10-07 10:20:31</h4>
+<h4 class="date">2019-10-20 14:49:03</h4>
 
 </div>
 
@@ -318,73 +335,134 @@ div.tocify {
 <!-- Icom IC-7610 -->
 <div id="ic-7610-hf-transceiver" class="section level2">
 <h2>IC-7610 HF Transceiver</h2>
+<p><img src="img/ic-7610.jpg" width="600px" style="display: block; margin: auto;" /></p>
 <div id="equipment-summary" class="section level3">
 <h3>Equipment summary</h3>
 <ul>
-<li>Icom IC-7610 (HF + 6m)
+<li>Icom IC-7610 (HF + 6m) transceiver
 <ul>
-<li>Astron power supply</li>
+<li>Astron RS-35A power supply</li>
 </ul></li>
 <li>Elecraft KPA1500
 <ul>
 <li>Elecraft power supply</li>
 </ul></li>
-<li>Windows 10 PC, dual monitor set-up
+<li>Icom SM-50 desk mic</li>
+<li>Clipper PTT footswitch</li>
+<li>Heil Pro-7 headset</li>
+<li>Nifty mini-manual and other manuals are located in the drawer under the radio.</li>
+<li>Dell PC, dual monitor set-up
 <ul>
-<li>WSTJ-X, JS8Call, fldigi, N1MM, N3FJP</li>
+<li>Windows 10</li>
+<li>WSTJ-X, JS8Call, fldigi suite</li>
+<li>N1MM, N3FJP</li>
 </ul></li>
-<li>The default configuration uses the ICOM SM-50 desk mic.</li>
-<li>Clipper footswitch for the PTT on the floor.</li>
-<li>Heil headset.</li>
-<li>We have a Nifty Mini-manual and other manuals are located in the drawer under the radio.</li>
 </ul>
 </div>
 <div id="connect-equipment-and-power-up" class="section level3">
 <h3>Connect equipment and power-up</h3>
 <ul>
-<li>The IC-7610 is located closest to the door.</li>
-<li>Connect the equipment to the power mains.
+<li>The IC-7610 is located closest to the main door off the porch.</li>
+<li>Connect to the power mains.
 <ul>
-<li>Plug the large 240 V cable for the amplifier into the 240 V wall outlet.</li>
-<li>Plug the smaller 120 V cable for the Uninterrupted Power Supply (UPS) into the wall outlet.</li>
+<li>Cables are located between the wooden shelf and the east wall.</li>
+<li>Plug the large 240 V cable (green tag) for the amplifier power supply into the 240 V wall outlet.</li>
+<li>Plug the smaller 120 V cable for the Uninterrupted Power Supply (UPS) into the 120 V wall outlet.</li>
 </ul></li>
-<li>Power up the UPS by pushing the front button.
+<li>Power up the UPS by pushing the front button. The green power light should illuminate.
 <ul>
-<li>If needed, power up the PC.</li>
+<li>If needed, power up the PC by pressing the button on the front panel.</li>
 </ul></li>
 <li>Power up the Astron RS-35A power supply that powers the IC-7610. The power supply is located to the right of the Elecraft KPA1500 amplifier.</li>
 <li>Before you power up the radio, connect it to a suitable antenna.
 <ul>
 <li>The antenna connections are located on the north wall, near the repeater cabinet.</li>
-<li>Plug the cable from the radio (yellow tag) into the cable connector for one of the antennas, for example, one of the triband Yagi’s for 10 - 20 m.</li>
+<li>Plug the cable from the radio (yellow tag with IC-7610 on the label) into the cable connector for one of the antennas, for example, one of the triband Yagis for 10-20 m.</li>
 </ul></li>
 <li>Power up the IC-7610 by pressing and briefly holding the power button.</li>
-<li>The IC-7610 is connected to the Elecraft KPA1500 amplifier. The power supply for the KPA1500 is under the desk on a small footstool. Check that the KPA1500 power supply is on. If necessary, power-up the power supply by hitting the power switch on the upper rear left side of the power supply.</li>
-<li>Power up the KPA1500 by pressing the on switch on the lower right hand side of the KPA1500.</li>
 </ul>
+<div class="figure" style="text-align: center">
+<img src="img/ic-7610-power-switch.png" alt="IC-7610 power switch" width="600px" />
+<p class="caption">
+IC-7610 power switch
+</p>
+</div>
+<ul>
+<li>The IC-7610 is connected to the Elecraft KPA1500 amplifier. The power supply for the KPA1500 is under the desk on a small footstool. Check that the KPA1500 power supply is on. If necessary, power-up the power supply by hitting the power switch on the upper rear left side of the power supply. When the amplifier power switch is on, you will see 3 green lights: AC on, High V supply, Low V supply.</li>
+<li>Power up the KPA1500 by pressing the <code>on</code> switch on the lower right hand side of the KPA1500 front panel.</li>
+</ul>
+<div class="figure" style="text-align: center">
+<img src="img/kpa1500-power-switch.png" alt="KPA1500 Power Switch" width="600px" />
+<p class="caption">
+KPA1500 Power Switch
+</p>
+</div>
 <div id="log-in-to-the-computer" class="section level4">
 <h4>Log-in to the computer</h4>
 <ul>
-<li>The IC-7610 is connected via USB to the NARC-1 PC.</li>
+<li>The IC-7610 is connected via USB to the NARC1 PC.</li>
 <li>Open your logging program of choice. NARC has licenses for N1MM and N3FJP’s Amateur Contact Log.</li>
 <li>To operate digital modes (e.g., FT8/FT4, JS8Call, fldigi), open those programs. See instructions for operating these modes in separate documents.</li>
 </ul>
-<!-- Elecraft K3S -->
 </div>
+</div>
+<div id="basic-controls" class="section level3">
+<h3>Basic controls</h3>
+<ul>
+<li>Audio levels for the two VFOs are controlledd via separate knobs on the left side of the front panel.</li>
+</ul>
+<p><img src="img/ic-7610-af.png" width="600px" style="display: block; margin: auto;" /></p>
+<ul>
+<li>You may switch operating bands in one of two ways:
+<ul>
+<li>Buttons located on the right side of the front panel</li>
+<li>Pressing the frequency on the touch screen.</li>
+</ul></li>
+</ul>
+<p><img src="img/ic-7610-chg-band.png" width="600px" style="display: block; margin: auto;" /></p>
+<ul>
+<li>Switch operating modes by pressing the mode button on the touch panel.</li>
+</ul>
+<p><img src="img/ic-7610-chg-mode.png" width="600px" style="display: block; margin: auto;" /></p>
+<p>This opens a window where you can choose the mode of operation. - Hit the arrow button to close the window and save your choice.</p>
+<ul>
+<li>Turn digital noise reduction on or off by pressing the NR button on the left side of the front panel. When NR is on, the NR button will be illuminated.
+<ul>
+<li>To adjust the amount of noise reduction, press and hold the NR button to open a window on the upper right corner of the touch panel display.</li>
+<li>Turn the MULTI key to adjust the level of noise reduction.</li>
+<li>Close the NR window by pressing the MULTI key or by pressing the NR button.</li>
+</ul></li>
+<li>Adjust preamplifier (<code>P.AMP</code>) settings, automatic gain control (<code>AGC</code>), Intercept Point (<code>IP+</code>), <code>VOX</code>, and compression (<code>COMP</code>) settings by pressing the corresponding button on the left side of the touch/display screen.</li>
+</ul>
+<p><img src="img/ic-7610-left-touch-buttons.png" width="600px" style="display: block; margin: auto;" /></p>
+<ul>
+<li>Adjust touch/display screen settings via the MENU1/MENU2 buttons at the bottom of the touch/display screen.</li>
+</ul>
+<p><img src="img/ic-7610-menu-touch-buttons.png" width="600px" style="display: block; margin: auto;" /></p>
+<ul>
+<li>Select receive filter settings via the <code>FILTER</code> button on the right side of the front panel, below the <code>TWIN PBT</code> knob.</li>
+</ul>
+<p><img src="img/ic-7610-filter.png" width="600px" style="display: block; margin: auto;" /></p>
+<ul>
+<li>Set RF power by pressing the MULTI button to open a window on the display/touch screen. Press the RF POWER panel to select it, and adjust the output power by turning the MULTI knob.</li>
+</ul>
+<p><img src="img/ic-7610-multi.png" width="600px" style="display: block; margin: auto;" /></p>
+<!-- Elecraft K3S -->
 </div>
 </div>
 <div id="elecraft-k3s" class="section level2">
 <h2>Elecraft K3S</h2>
+<p><img src="img/elecraft-k3s.jpg" width="600px" style="display: block; margin: auto;" /></p>
 <div id="equipment-summary-1" class="section level3">
 <h3>Equipment summary</h3>
 <ul>
 <li>Elecraft K3S (HF + 6m) transceiver
 <ul>
-<li>Astron power supply</li>
+<li>Astron RS-35A power supply</li>
 </ul></li>
 <li>Elecraft KPA1500
 <ul>
-<li>Power supply</li>
+<li>Elecraft power supply</li>
 </ul></li>
 <li>Elecraft P3 Panadapter</li>
 <li>Footswitch on the floor.</li>
@@ -399,17 +477,32 @@ div.tocify {
 <div id="connect-and-power-up" class="section level3">
 <h3>Connect and power-up</h3>
 <ul>
-<li>Connect the UPS to the wall power outlet.</li>
-<li>Connect the 240 V Elecraft KPA1500 power supply cable to the 240 V supply.</li>
+<li>Connect the UPS to the wall power outlet.
+<ul>
+<li>The UPS is on the window sill behind the station. The power cable has an orange tag.</li>
+</ul></li>
+<li>Press and hold the UPS POWER button until you hear 2 beeps.</li>
+<li>Connect the 240 V Elecraft KPA1500 power supply cable to the 240 V outlet. The power cable has an orange tag.</li>
 <li>Power up the Astron RS-35A power supply by pressing the red ‘on’ switch on the lower left front part of the panel.</li>
-<li>Power up the K3S.</li>
-<li>Power up the KPA1500 by pressing the ‘On’ switch on the lower right panel.</li>
+<li>Power up the K3S.
+<ul>
+<li>The POWER button is on the left side of the left side of the rig front panel.</li>
+</ul></li>
+<li>Power up the P3 Panadapter. This step is mandatory!</li>
+<li>Power up the KPA1500 by pressing the ‘ON’ switch on the lower right panel.</li>
 </ul>
+<div class="figure" style="text-align: center">
+<img src="img/kpa1500-power-switch.png" alt="KPA1500 Power Switch" width="600px" />
+<p class="caption">
+KPA1500 Power Switch
+</p>
+</div>
 <!-- KPA1500 -->
 </div>
 </div>
 <div id="elecraft-kpa1500" class="section level2">
 <h2>Elecraft KPA1500</h2>
+<p><img src="img/kpa1500.png" width="600px" style="display: block; margin: auto;" /></p>
 <div id="summary" class="section level3">
 <h3>Summary</h3>
 <ul>
@@ -430,6 +523,7 @@ div.tocify {
 <div id="ensure-that-antenna-tuner-is-in-line" class="section level4">
 <h4>Ensure that antenna tuner is in-line</h4>
 <p>NARC offers a variety of resonant antennas for your use, but it is prudent to use the automatic antenna tuner that the KPA1500 provides.</p>
+<p>On the KPA1500 front panel, press the ATU TUNE/ATU MODE button to select the ATU IN mode (green light).</p>
 </div>
 <div id="determine-the-band-and-power-needs-for-your-mode-of-operation" class="section level4">
 <h4>Determine the band and power needs for your mode of operation</h4>
@@ -449,30 +543,38 @@ div.tocify {
 <h1>Operating procedures</h1>
 <div id="wstj-x" class="section level2">
 <h2>WSTJ-X</h2>
-<div id="wstj-x-on-ic-7610" class="section level3">
-<h3>WSTJ-X on IC-7610</h3>
+<div id="wsjt-x-on-ic-7610" class="section level3">
+<h3>WSJT-X on IC-7610</h3>
+<p>The current installed version as of 2019-10-20 is v2.1.0.</p>
 <div id="on-the-pc" class="section level4">
 <h4>On the PC</h4>
 <ol style="list-style-type: decimal">
-<li>Open WSTJ-X. (Icon is on desktop.)</li>
+<li>Open WSJT-X (Icon is on desktop.)</li>
 </ol>
-<p><strong>Note</strong>: If you will be using the rig regularly, you may wish to clone an existing Configuration set and edit it for your particular use. From the Configurations menu, choose a source Configuration, e.g., Standard Ops, select “Clone”, then from the Configurations menu, choose the clone, and switch to it by selecting the “Switch To” menu item. When WSTJ-X reopens with the new Configurations set, open Settings from File/Settings menu and confirm the settings.</p>
+<p>WSTJ-X opens to the same operating frequency as the rig is on when you start.</p>
 <ol start="2" style="list-style-type: decimal">
 <li>Confirm Settings</li>
 </ol>
 <p>It’s not essential to confirm the settings each time you start up, but doing so will make sure that you are able to operate without difficulty.</p>
+<ol style="list-style-type: lower-alpha">
+<li><p>Open the Configurations menu and select a configurations set. <code>Standard Ops</code> is a good place to start.</p></li>
+<li><p>Open Settings from the File menu</p></li>
+</ol>
 <p><em>General tab:</em></p>
 <p>Set my Call to your personal callsign unless you have permission to use the club callsign (W3YA). Set any Display or Behavior settings per your personal preferences.</p>
 <p><em>Radio tab:</em></p>
-<p>Rig: Icom IC-7610</br> CAT Control: COM3</br> Baud Rate: 19200</br> 8 bits, 1 stop bit, none</br></p>
-<p>Force Control Lines: unset</p>
+<p>Change these at your own risk.</p>
+<p>Rig: Icom IC-7610</br> CAT Control: COM3</br> Baud Rate: 19200</br> Data Bits: 8 bits</br> Stop Bits: none</br> Handshake: none</br> Force Control Lines: unset</br></p>
 <p>PTT method: CAT (port should be COM3)</br> Mode: Data/pkt</br> Split operation: Rig or Fake It</br></p>
-<p>You may want to check/confirm that rig control is working by pushing the button in this panel. You may also want to check that PTT is working by pressing the PTT button. Make sure you have adjusted the rig’s power output to a low level (1-5 W) before testing.</p>
+<p>You may want to check/confirm that rig control is working by pushing the Test CAT button in this panel. If the button turns green, then the rig and computer are communicating.</p>
+<p>You may also want to check that PTT is working by pressing the Test PTT button. Make sure you have adjusted the rig’s power output to a low level (1-5 W) before testing. On the IC-7610, press the MULTI button, touch the RF Power panel on the touch screen, and turn the MULTI button to set desired output power.</p>
 <p><em>Audio tab:</em></p>
 <p>Input: USB Audio Codec Output: USB Audio Codec</p>
+<p><em>Reporting tab</em></p>
+<p>You may want to set the Op Call to your own callsign.</p>
 <p><em>Advanced tab:</em></p>
 <p>Check or uncheck Special Operating Activity per situation, for example ARRL Field Day or the NA VHF Contest.</p>
-<p>You may now close the Settings window.</p>
+<p>You may now close the Settings window by pressing the OK button.</p>
 <p>Switch to the desired mode (e.g., FT8) from the Mode menu. Select the desired operating band and default frequency from the dropdown menu on the lower left side of the main WSJT-X application panel.</p>
 <ol start="3" style="list-style-type: decimal">
 <li>Check computer clock accuracy</li>
@@ -487,32 +589,76 @@ div.tocify {
 <ol style="list-style-type: decimal">
 <li>Confirm rig is in USB Data 2 (USB-D2) mode.</li>
 </ol>
-<p>To change the mode, press the mode indicator on the touch screen to open a window to toggle the mode (USB/LSB). Press and hold the DATA button to switch between D1, D2, and D3 data mode connectors. D2 is configured for use via USB.</p>
-<p>Set your bandwidth to filter 1 (wide).</p>
-<p>You may adjust the filter settings by pressing the filter button on the right side of the rig control panel.</p>
+<p>To change the mode, press the mode indicator on the touch screen to open a window to toggle the mode (USB/LSB) to USB. Unless you are sure that your digital mode uses LSB, select USB. Press and hold the DATA button to switch between D1, D2, and D3 data mode connectors. D2 is configured for use via USB.</p>
 <ol start="2" style="list-style-type: decimal">
-<li>Check audio output levels</li>
+<li>Set your bandwidth to filter 1 (wide) by pressing the FILTER button located on the right side of the front panel.</li>
 </ol>
-<p>Turn AGC off; NR and NB off; Preamp off.</p>
+<p>You may adjust the filter settings by pressing and holding the filter button on the right side of the rig control panel. Press the arrow/return button on the display/touch screen to save and apply the filter settings.</p>
 <ol start="3" style="list-style-type: decimal">
-<li>Set desired power output using MULTI knob.</li>
+<li>Set other settings</li>
 </ol>
+<p>The following settings can be changed via buttons on the left side of the touch/display screen.</p>
+<ul>
+<li>Preamp (P.AMP) off</li>
+</ul>
+<p>Press the P.AMP button to cycle through the settings (OFF, P.AMP 1, P.AMP 2)</p>
+<ul>
+<li>ATT off</li>
+</ul>
+<p>Press the ATT button to cycle through the attenuator settings (OFF, 6 dB, 12 dB, 18 dB)</p>
+<ul>
+<li>IP+ off</li>
+</ul>
+<p>Press the IP+ button to select ON or OFF</p>
+<ul>
+<li>Turn AGC off</li>
+</ul>
+<p>Press and hold the AGC button on the display/touch screen. This opens a panel. Under the SSB column, select the SLOW setting. Adjust the AGC level downward until the indicator says OFF. Press the arrow/return button on the display/touch screen to enter the setting.</p>
+<ul>
+<li><p>VOX off</p></li>
+<li><p>Noise reduction (NR) off</p></li>
+</ul>
+<p>Press the NR button on the left side of the front panel to turn off the illuminator.</p>
+<ul>
+<li>Noise blanker (NB) off</li>
+</ul>
+<p>Press the NB button on the left side of the front panel to turn off the illuminator.</p>
+<ol start="4" style="list-style-type: decimal">
+<li>Set desired RF power output using MULTI knob.</li>
+</ol>
+<p>Press and hold the MULTI button to open a window on the touch/display screen. Press the RF POWER panel and rotate the MULTI button to set RF power.</p>
 <p>Remember, WSJT-X is a weak signal mode. Less than 50 W is plenty.</p>
 </div>
 <div id="on-kpa1500" class="section level4">
 <h4>On KPA1500</h4>
+<!-- Elecraft KPA1500 -->
 <ol style="list-style-type: decimal">
-<li>For &lt; 100W output, set amplifier to STBY mode (yellow light) by pressing MODE button to toggle between STBY and OPER.</li>
+<li>For &lt; 100W output, set amplifier to STBY mode (yellow light) by pressing the MODE button to toggle between STBY (yellow light) and OPER (green).</li>
 </ol>
+<pre class="r"><code>knitr::include_graphics(&quot;img/kpa1500-mode.png&quot;)</code></pre>
+<p><img src="img/kpa1500-mode.png" width="600px" style="display: block; margin: auto;" /></p>
 <p>For higher power output, follow separate instructions for tuning the KPA1500 amplifier.</p>
 <ol start="2" style="list-style-type: decimal">
-<li><p>Confirm ANT1 is output (press ANTENNA to toggle).</p></li>
-<li><p>Confirm ATU is IN (not BYP) by pressing and holding ATU TUNE button.</p></li>
+<li>Confirm ANT1 is output (press ANTENNA to toggle).</li>
 </ol>
+<pre class="r"><code>knitr::include_graphics(&quot;img/kpa1500-ant.png&quot;)</code></pre>
+<p><img src="img/kpa1500-ant.png" width="600px" style="display: block; margin: auto;" /></p>
+<ol start="3" style="list-style-type: decimal">
+<li>Confirm ATU is IN (not BYP) by pressing and holding ATU TUNE button.</li>
+</ol>
+<pre class="r"><code>knitr::include_graphics(&quot;img/kpa1500-atu.png&quot;)</code></pre>
+<p><img src="img/kpa1500-atu.png" width="600px" style="display: block; margin: auto;" /></p>
 <p>Have fun!</p>
 </div>
+<div id="operating-hints" class="section level4">
+<h4>Operating hints</h4>
+<ol style="list-style-type: decimal">
+<li>Make sure that your audio in level is not too high.</li>
+</ol>
+<p>There are several ways to adjust this: - Adjust the RF/SQL button on the rig</p>
 </div>
-<div id="wstj-x-on-ic-7610-1" class="section level3">
+</div>
+<div id="wstj-x-on-ic-7610" class="section level3">
 <h3>WSTJ-X on IC-7610</h3>
 <div id="on-the-pc-1" class="section level4">
 <h4>On the PC</h4>
@@ -555,6 +701,283 @@ div.tocify {
 </div>
 <div id="on-kpa1500-1" class="section level4">
 <h4>On KPA1500</h4>
+<!-- Elecraft KPA1500 -->
+<ol style="list-style-type: decimal">
+<li>For &lt; 100W output, set amplifier to STBY mode (yellow light) by pressing the MODE button to toggle between STBY (yellow light) and OPER (green).</li>
+</ol>
+<pre class="r"><code>knitr::include_graphics(&quot;img/kpa1500-mode.png&quot;)</code></pre>
+<p><img src="img/kpa1500-mode.png" width="600px" style="display: block; margin: auto;" /></p>
+<p>For higher power output, follow separate instructions for tuning the KPA1500 amplifier.</p>
+<ol start="2" style="list-style-type: decimal">
+<li>Confirm ANT1 is output (press ANTENNA to toggle).</li>
+</ol>
+<pre class="r"><code>knitr::include_graphics(&quot;img/kpa1500-ant.png&quot;)</code></pre>
+<p><img src="img/kpa1500-ant.png" width="600px" style="display: block; margin: auto;" /></p>
+<ol start="3" style="list-style-type: decimal">
+<li>Confirm ATU is IN (not BYP) by pressing and holding ATU TUNE button.</li>
+</ol>
+<pre class="r"><code>knitr::include_graphics(&quot;img/kpa1500-atu.png&quot;)</code></pre>
+<p><img src="img/kpa1500-atu.png" width="600px" style="display: block; margin: auto;" /></p>
+<p>Have fun!</p>
+</div>
+</div>
+</div>
+<div id="fldigi" class="section level2">
+<h2>fldigi</h2>
+<div id="fldigi-on-ic-7610" class="section level3">
+<h3>fldigi on IC-7610</h3>
+<p>As of 2019-10-20, the installed version is 4.1.03.</p>
+<div id="on-the-pc-2" class="section level4">
+<h4>On the PC</h4>
+<ol style="list-style-type: decimal">
+<li>Open fldigi. (Icon is on desktop.)</li>
+</ol>
+<p>Fldigi is configured to use the flrig program to interface between the radio and the computer. Flrig should open automatically a few seconds after fldigi opens. If flrig shows the current VFO frequency and so does fldigi, the two devices are talking to one another.</p>
+<ol start="2" style="list-style-type: decimal">
+<li>Confirm Settings</li>
+</ol>
+<p>It’s not essential to confirm the settings each time you start up, but doing so will make sure that you are able to operate without difficulty.</p>
+<ul>
+<li>In flrig, open the Config menu and select Setup &gt; Transceiver. This opens a separate window.</li>
+</ul>
+<p>Rig: IC-7610</br> Ser Port: COM3</br> Baud: 19200</br> (Stop bits:) 1</br> PTT via CAT checked</br></p>
+<p>CV-V adr:0x98 </br></p>
+<p>You may now close the Configuration window by pressing the CLOSE button or close window (X) button.</p>
+<ol start="3" style="list-style-type: decimal">
+<li>Check receive operations</li>
+</ol>
+<ul>
+<li>Turn to a known PSK31 frequency, for example, 14070.</li>
+<li>From the Op Mode menu, select PSK &gt; BPSK-31</li>
+</ul>
+<p>If all is well, you should see decodes in the left hand window and signals in the waterfall below.</p>
+<ol start="4" style="list-style-type: decimal">
+<li>Configure your operational settings.</li>
+</ol>
+<ul>
+<li>From the Configure menu, select UI &gt; Operator to open a window.</li>
+<li>Under the Operator tab set Station Callsign, Operator Callsign, Operator Name, Antenna, Station QTH, Station Locator and other items.</li>
+</ul>
+</div>
+<div id="on-the-ic-7610-1" class="section level4">
+<h4>On the IC-7610</h4>
+<ol style="list-style-type: decimal">
+<li>Confirm rig is in USB Data 2 (USB-D2) mode.</li>
+</ol>
+<pre class="r"><code>knitr::include_graphics(&quot;img/ic-7610-chg-mode.png&quot;)</code></pre>
+<p><img src="img/ic-7610-chg-mode.png" width="600px" style="display: block; margin: auto;" /></p>
+<p>To change the mode, press the mode indicator on the touch screen to open a window to toggle the mode (USB/LSB) to USB. Unless you are sure that your digital mode uses LSB, select USB. Press and hold the DATA button to switch between D1, D2, and D3 data mode connectors. D2 is configured for use via USB.</p>
+<ol start="2" style="list-style-type: decimal">
+<li>Set your bandwidth to filter 1 (wide) by pressing the FILTER button located on the right side of the front panel.</li>
+</ol>
+<pre class="r"><code>knitr::include_graphics(&quot;img/ic-7610-filter.png&quot;)</code></pre>
+<p><img src="img/ic-7610-filter.png" width="600px" style="display: block; margin: auto;" /></p>
+<p>You may adjust the filter settings by pressing and holding the filter button on the right side of the rig control panel. Press the arrow/return button on the display/touch screen to save and apply the filter settings.</p>
+<ol start="3" style="list-style-type: decimal">
+<li>Set other settings</li>
+</ol>
+<p>The following settings can be changed via buttons on the left side of the touch/display screen.</p>
+<pre class="r"><code>knitr::include_graphics(&quot;img/ic-7610-left-touch-buttons.png&quot;)</code></pre>
+<p><img src="img/ic-7610-left-touch-buttons.png" width="600px" style="display: block; margin: auto;" /></p>
+<ul>
+<li>Preamps (P.AMP) off</li>
+</ul>
+<p>Press the P.AMP button to cycle through the settings (OFF, P.AMP 1, P.AMP 2)</p>
+<ul>
+<li>ATT off</li>
+</ul>
+<p>Press the ATT button to cycle through the attenuator settings (OFF, 6 dB, 12 dB, 18 dB)</p>
+<ul>
+<li>IP+ off</li>
+</ul>
+<p>Press the IP+ button to select ON or OFF</p>
+<ul>
+<li>Turn AGC off</li>
+</ul>
+<p>Press and hold the AGC button on the display/touch screen. This opens a panel. Under the SSB column, select the SLOW setting. Adjust the AGC level downward until the indicator says OFF. Press the arrow/return button on the display/touch screen to enter the setting.</p>
+<ul>
+<li><p>VOX off</p></li>
+<li><p>Noise reduction (NR) off</p></li>
+</ul>
+<p>Press the NR button on the left side of the front panel to turn off the illuminator.</p>
+<ul>
+<li>Noise blanker (NB) off</li>
+</ul>
+<p>Press the NB button on the left side of the front panel to turn off the illuminator.</p>
+<ol start="4" style="list-style-type: decimal">
+<li>Set desired RF power output using MULTI knob.</li>
+</ol>
+<pre class="r"><code>knitr::include_graphics(&quot;img/ic-7610-multi.png&quot;)</code></pre>
+<p><img src="img/ic-7610-multi.png" width="600px" style="display: block; margin: auto;" /></p>
+<p>Press and hold the MULTI button to open a window on the touch/display screen. Press the RF POWER panel and rotate the MULTI button to set RF power.</p>
+</div>
+<div id="on-kpa1500-2" class="section level4">
+<h4>On KPA1500</h4>
+<!-- Elecraft KPA1500 -->
+<ol style="list-style-type: decimal">
+<li>For &lt; 100W output, set amplifier to STBY mode (yellow light) by pressing the MODE button to toggle between STBY (yellow light) and OPER (green).</li>
+</ol>
+<pre class="r"><code>knitr::include_graphics(&quot;img/kpa1500-mode.png&quot;)</code></pre>
+<p><img src="img/kpa1500-mode.png" width="600px" style="display: block; margin: auto;" /></p>
+<p>For higher power output, follow separate instructions for tuning the KPA1500 amplifier.</p>
+<ol start="2" style="list-style-type: decimal">
+<li>Confirm ANT1 is output (press ANTENNA to toggle).</li>
+</ol>
+<pre class="r"><code>knitr::include_graphics(&quot;img/kpa1500-ant.png&quot;)</code></pre>
+<p><img src="img/kpa1500-ant.png" width="600px" style="display: block; margin: auto;" /></p>
+<ol start="3" style="list-style-type: decimal">
+<li>Confirm ATU is IN (not BYP) by pressing and holding ATU TUNE button.</li>
+</ol>
+<pre class="r"><code>knitr::include_graphics(&quot;img/kpa1500-atu.png&quot;)</code></pre>
+<p><img src="img/kpa1500-atu.png" width="600px" style="display: block; margin: auto;" /></p>
+<p>Have fun!</p>
+</div>
+</div>
+<div id="fldigi-on-the-k3s" class="section level3">
+<h3>fldigi on the K3S</h3>
+<p>As of 2019-10-20, the installed version is 4.1.03.</p>
+<div id="on-the-pc-3" class="section level4">
+<h4>On the PC</h4>
+<ol style="list-style-type: decimal">
+<li>Open fldigi. (Icon is on desktop.)</li>
+</ol>
+<p>Fldigi is configured to use the flrig program to interface between the radio and the computer. Flrig should open automatically a few seconds after fldigi opens. If flrig shows the current VFO frequency and so does fldigi, the two devices are talking to one another.</p>
+<ol start="2" style="list-style-type: decimal">
+<li>Confirm Settings</li>
+</ol>
+<p>It’s not essential to confirm the settings each time you start up, but doing so will make sure that you are able to operate without difficulty.</p>
+<ul>
+<li>In flrig, open the Config menu and select Setup &gt; Transceiver. This opens a separate window.</li>
+</ul>
+<p>Rig: K3</br> Ser Port: COM3</br> Baud: 19200</br> (Stop bits:) 1</br> PTT via CAT checked</br></p>
+<p>You may now close the Configuration window by pressing the CLOSE button or close window (X) button.</p>
+<ol start="3" style="list-style-type: decimal">
+<li>Check receive operations</li>
+</ol>
+<ul>
+<li>Turn to a known PSK31 frequency, for example, 14070.</li>
+<li>From the Op Mode menu, select PSK &gt; BPSK-31</li>
+</ul>
+<p>If all is well, you should see decodes in the left hand window and signals in the waterfall below.</p>
+<ol start="4" style="list-style-type: decimal">
+<li>Configure your operational settings.</li>
+</ol>
+<ul>
+<li>From the Configure menu, select UI &gt; Operator to open a window.</li>
+<li>Under the Operator tab set Station Callsign, Operator Callsign, Operator Name, Antenna, Station QTH, Station Locator and other items.</li>
+</ul>
+</div>
+<div id="on-the-k3s" class="section level4">
+<h4>On the K3S</h4>
+<ol style="list-style-type: decimal">
+<li>Confirm rig is in Data A mode</li>
+</ol>
+<ul>
+<li>(if necessary, hit MODE button on right side of front panel to cycle to DATA mode; indicator will be near Tx icon on right side of the display).</li>
+</ul>
+<pre class="r"><code>knitr::include_graphics(&quot;img/elecraft-k3s-mode.png&quot;)</code></pre>
+<p><img src="img/elecraft-k3s-mode.png" width="600px" style="display: block; margin: auto;" /></p>
+<p>Press (and hold) the DATA MD (AFX) button on the middle right of the panel.</p>
+<pre class="r"><code>knitr::include_graphics(&quot;img/elecraft-k3s-data-mode.png&quot;)</code></pre>
+<p><img src="img/elecraft-k3s-data-mode.png" width="600px" style="display: block; margin: auto;" /></p>
+<p>Using the VFO B knob, select DATA A (not AFSK A). Press DATA MD again to enter change.</p>
+<ol start="2" style="list-style-type: decimal">
+<li>Set bandwidth to maximum (4 kHz) by rotating WIDTH knob (above and to the left of the VFO A knob) clockwise until the screen shows a 4.0 bandwidth.</li>
+</ol>
+<pre class="r"><code>knitr::include_graphics(&quot;img/elecraft-k3s-bandwidth.png&quot;)</code></pre>
+<p><img src="img/elecraft-k3s-bandwidth.png" width="600px" style="display: block; margin: auto;" /></p>
+<ol start="3" style="list-style-type: decimal">
+<li>Press SPEED/MIC button to MIC. When LINE appears, set level to 30 (midrange).</li>
+</ol>
+<pre class="r"><code>knitr::include_graphics(&quot;img/elecraft-k3s-speed-mic.png&quot;)</code></pre>
+<p><img src="img/elecraft-k3s-speed-mic.png" width="600px" style="display: block; margin: auto;" /></p>
+<ol start="4" style="list-style-type: decimal">
+<li>Set ALC.</li>
+</ol>
+<p>From within WSTJ-X, hit Tune button; adjust audio level from computer “speaker” slider and WSTJ-X Power slider until ALC meter reads about 4 bars. Then adjust K3S mic gain to produce 4 bars solid with the 5th bar flickering.</p>
+<p>Adjust transmit power via Power knob on K3S. Remember, WSJT-X is a weak signal mode. Less than 50 W is plenty.</p>
+</div>
+<div id="on-kpa1500-3" class="section level4">
+<h4>On KPA1500</h4>
+<!-- Elecraft KPA1500 -->
+<ol style="list-style-type: decimal">
+<li>For &lt; 100W output, set amplifier to STBY mode (yellow light) by pressing the MODE button to toggle between STBY (yellow light) and OPER (green).</li>
+</ol>
+<pre class="r"><code>knitr::include_graphics(&quot;img/kpa1500-mode.png&quot;)</code></pre>
+<p><img src="img/kpa1500-mode.png" width="600px" style="display: block; margin: auto;" /></p>
+<p>For higher power output, follow separate instructions for tuning the KPA1500 amplifier.</p>
+<ol start="2" style="list-style-type: decimal">
+<li>Confirm ANT1 is output (press ANTENNA to toggle).</li>
+</ol>
+<pre class="r"><code>knitr::include_graphics(&quot;img/kpa1500-ant.png&quot;)</code></pre>
+<p><img src="img/kpa1500-ant.png" width="600px" style="display: block; margin: auto;" /></p>
+<ol start="3" style="list-style-type: decimal">
+<li>Confirm ATU is IN (not BYP) by pressing and holding ATU TUNE button.</li>
+</ol>
+<pre class="r"><code>knitr::include_graphics(&quot;img/kpa1500-atu.png&quot;)</code></pre>
+<p><img src="img/kpa1500-atu.png" width="600px" style="display: block; margin: auto;" /></p>
+<p>Have fun!</p>
+</div>
+</div>
+</div>
+<div id="phone" class="section level2">
+<h2>Phone</h2>
+<div id="ssb-on-ic-7610" class="section level3">
+<h3>SSB on IC-7610</h3>
+<div id="on-the-pc-4" class="section level4">
+<h4>On the PC</h4>
+<!-- 1. Open fldigi. (Icon is on desktop.) -->
+<!-- Fldigi is configured to use the flrig program to interface between the radio and the computer. Flrig should open automatically a few seconds after fldigi opens. If flrig shows the current VFO frequency and so does fldigi, the two devices are talking to one another. -->
+<!-- 2. Confirm Settings -->
+<!-- It’s not essential to confirm the settings each time you start up, but doing so will make sure that you are able to operate without difficulty. -->
+<!-- *General tab:* -->
+<!-- Set my Call to your personal callsign unless you have permission to use the club callsign (W3YA).  -->
+<!-- Set any Display or Behavior settings per your personal preferences. -->
+<!-- *Radio tab:* -->
+<!-- Rig: Icom IC-7610</br> -->
+<!-- CAT Control: COM3</br> -->
+<!-- Baud Rate: 19200</br> -->
+<!-- 8 bits, 1 stop bit, none</br> -->
+<!-- Force Control Lines: unset -->
+<!-- PTT method: CAT (port should be COM3)</br> -->
+<!-- Mode: Data/pkt</br> -->
+<!-- Split operation: Rig or Fake It</br> -->
+<!-- You may want to check/confirm that rig control is working by pushing the button in this panel.  -->
+<!-- You may also want to check that PTT is working by pressing the PTT button.  -->
+<!-- Make sure you have adjusted the rig’s power output to a low level (1-5 W) before testing. -->
+<!-- *Audio tab:* -->
+<!-- Input: USB Audio Codec -->
+<!-- Output: USB Audio Codec -->
+<!-- *Advanced tab:* -->
+<!-- Check or uncheck Special Operating Activity per situation, for example ARRL Field Day or the NA VHF Contest. -->
+<!-- You may now close the Settings window. -->
+<!-- Switch to the desired mode (e.g., FT8) from the Mode menu. -->
+<!-- Select the desired operating band and default frequency from the dropdown menu on the lower left side of the main WSJT-X application panel. -->
+<!-- 3. Check computer clock accuracy -->
+<!-- Open a browser; visit https://time.is -->
+<!-- If your time synch is within .5s of the correct time, you may proceed. -->
+<!-- If you have a cellular hotspot, you may wish to connect it to the hub.  -->
+<!-- Power the hub, wait for the computers to establish an internet connection, and allow the Meinberg time server application to update the time. -->
+<!-- If you are decoding signals, then all is well. -->
+</div>
+<div id="on-the-ic-7610-2" class="section level4">
+<h4>On the IC-7610</h4>
+<ol style="list-style-type: decimal">
+<li>Confirm the rig is in SSB mode.</li>
+</ol>
+<p>To change the mode, press the mode indicator on the touch screen to open a window to toggle the mode (USB/LSB).</p>
+<ol start="2" style="list-style-type: decimal">
+<li>Set your bandwidth by pressing the FILTER button located on the right side of the front panel.</li>
+</ol>
+<p>You may adjust the filter settings by pressing and holding the filter button on the right side of the rig control panel. Press and hold the FILTER button on to save and apply the filter settings.</p>
+<ol start="2" style="list-style-type: decimal">
+<li><p>Check audio output levels Turn AGC off ; NR and NB off; Preamp off.</p></li>
+<li><p>Set desired power output using MULTI knob.</p></li>
+</ol>
+<p>Remember, WSJT-X is a weak signal mode. Less than 50 W is plenty.</p>
+</div>
+<div id="on-kpa1500-4" class="section level4">
+<h4>On KPA1500</h4>
 <ol style="list-style-type: decimal">
 <li>For &lt; 100W output, set amplifier to STBY mode (yellow light) by pressing MODE button to toggle between STBY and OPER.</li>
 </ol>
@@ -567,12 +990,6 @@ div.tocify {
 </div>
 </div>
 </div>
-<div id="flidigi" class="section level2">
-<h2>flidigi</h2>
-</div>
-<div id="phone" class="section level2">
-<h2>Phone</h2>
-</div>
 <div id="cw" class="section level2">
 <h2>CW</h2>
 </div>
@@ -584,12 +1001,17 @@ div.tocify {
 <h1>Departure procedures</h1>
 <ul>
 <li>Power down all the equipment you used.</li>
-<li>Turn off the UPS and unplug it from the wall sockets.</li>
-<li>Unplug the power amplifier power supplies from the wall sockets.</li>
+<li>Turn off the UPS.
+<ul>
+<li>For the NARC1/IC-7610 station, press and hold the UPS Power button until you hear a single beep.</li>
+<li>For the NARC2/K3S station, press and hold the UPS Power button until you hear one long and two short beeps.</li>
+</ul></li>
+<li>Unplug the UPS from the wall sockets.</li>
+<li>Unplug the 220 V power amplifier power supplies from the wall sockets.</li>
 <li>Unplug the antenna rotator power supplies from the wall sockets.</li>
 <li>Turn breakers 7-14 – the baseboard and north wall 240 V heaters – <strong>off</strong>.</li>
 <li>Return the porta potty key to the desktop to the right side of the door.</li>
-<li>Take the padlock to the gate with you.</li>
+<li>Take the padlock to the gate with you and the L-shaped latch if you did not leave it in the gate.</li>
 <li>As you leave the shack, close and lock the door by turning the key to the right (clockwise). Check again to confirm that the door is closed and locked.</li>
 <li>As you reach the gate, stop, remove the lock bar, and swing the gate out of the way.</li>
 <li>Drive through and stop just outside the gate.</li>

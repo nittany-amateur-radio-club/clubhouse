@@ -5,7 +5,18 @@ date: "`r Sys.time()`"
 output: html_document
 ---
 
+```{r, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, 
+                      message = FALSE,
+                      fig.align = "center",
+                      out.width = "600px")
+```
+
 ## Elecraft K3S
+
+```{r}
+knitr::include_graphics("img/elecraft-k3s.jpg")
+```
 
 ### Equipment summary
 
@@ -23,7 +34,19 @@ output: html_document
 ### Connect and power-up
 
 - Connect the UPS to the wall power outlet.
-- Connect the 240 V Elecraft KPA1500 power supply cable to the 240 V supply.
+    - The UPS is on the window sill behind the station. 
+    The power cable has an orange tag.
+- Press and hold the UPS POWER button until you hear 2 beeps.
+- Connect the 240 V Elecraft KPA1500 power supply cable to the 240 V outlet.
+The power cable has an orange tag.
 - Power up the Astron RS-35A power supply by pressing the red 'on' switch on the lower left front part of the panel.
 - Power up the K3S.
-- Power up the KPA1500 by pressing the 'On' switch on the lower right panel.
+    - The POWER button is on the left side of the left side of the rig front panel.
+- Power up the P3 Panadapter.
+This step is mandatory!
+- Power up the KPA1500 by pressing the 'ON' switch on the lower right panel.
+
+```{r, fig.cap="KPA1500 Power Switch"}
+knitr::include_graphics("img/kpa1500-power-switch.png")
+```
+

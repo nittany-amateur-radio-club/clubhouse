@@ -7,6 +7,10 @@ output: html_document
 
 ## Elecraft KPA1500
 
+```{r}
+knitr::include_graphics("img/kpa1500.png")
+```
+
 ### Summary
 
 - The Elecraft KPA1500 is a solid state 1500 W amplifier.
@@ -28,6 +32,8 @@ The default configuration is from the amplifier to the transceiver's ANT 1 port.
 #### Ensure that antenna tuner is in-line
 
 NARC offers a variety of resonant antennas for your use, but it is prudent to use the automatic antenna tuner that the KPA1500 provides.
+
+On the KPA1500 front panel, press the ATU TUNE/ATU MODE button to select the ATU IN mode (green light).
 
 #### Determine the band and power needs for your mode of operation
 
