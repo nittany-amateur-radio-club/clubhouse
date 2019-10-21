@@ -5,18 +5,20 @@ date: "`r Sys.time()`"
 output: html_document
 ---
 
-```{r setup, include=FALSE}
+```{r, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE, warning = FALSE, 
                       message = FALSE,
                       fig.align = "center",
-                      out.width = "600px")
-```
+                      out.width = "6.5in")
+````
 
 ## IC-7610 HF Transceiver
 
 ```{r, fig.cap=""}
 knitr::include_graphics("img/ic-7610.jpg")
 ```
+
+This transceiver is currently connected to the NARC1 computer.
 
 ### Equipment summary
 
@@ -35,26 +37,38 @@ knitr::include_graphics("img/ic-7610.jpg")
 
 ### Connect equipment and power-up
 
-- The IC-7610 is located closest to the main door off the porch.
-- Connect to the power mains.
-    - Cables are located between the wooden shelf and the east wall.
+- The IC-7610/NARC1 is located closest to the main door off the porch.
+
+1. Connect to the power mains.
+    - Power cables are located between the wooden shelf and the east wall.
     - Plug the large 240 V cable (green tag) for the amplifier power supply into the 240 V wall outlet.
     - Plug the smaller 120 V cable for the Uninterrupted Power Supply (UPS) into the 120 V wall outlet.
-- Power up the UPS by pushing the front button. The green power light should illuminate.
-    - If needed, power up the PC by pressing the button on the front panel.
-- Power up the Astron RS-35A power supply that powers the IC-7610. 
-The power supply is located to the right of the Elecraft KPA1500 amplifier.
-- Before you power up the radio, connect it to a suitable antenna.
-    - The antenna connections are located on the north wall, near the repeater cabinet.
-    - Plug the cable from the radio (yellow tag with IC-7610 on the label) into the cable connector for one of the antennas, for example, one of the triband Yagis for 10-20 m.
-- Power up the IC-7610 by pressing and briefly holding the power button.
+    
+2. Connect the radio to a suitable antenna.
+
+**Before you power up the radio, connect it to a suitable antenna**.
+**The antenna connections are located on the north wall, near the repeater cabinet**.
+Choose the PL-259 connector with the <span color="yellow">yellow</span> IC-7610 tag.
+Plug the cable from the radio into the cable connector for one of the antennas, for example, one of the triband Yagis for 10-20 m.
+**Please do not remove the N/PL-259 connectors from the antenna feedlines.**
+    
+3. Power up the UPS by pushing the front button. The green power light should illuminate.
+
+4. Power up the Astron RS-35A power supply that powers the IC-7610/NARC1. The power supply is located to the right of the Elecraft KPA1500 amplifier.
+
+5. Power up the IC-7610/NARC1 by pressing and briefly holding the power button.
 
 ```{r, fig.cap="IC-7610 power switch"}
 knitr::include_graphics("img/ic-7610-power-switch.png")
 ```
 
-- The IC-7610 is connected to the Elecraft KPA1500 amplifier. The power supply for the KPA1500 is under the desk on a small footstool. Check that the KPA1500 power supply is on. If necessary, power-up the power supply by hitting the power switch on the upper rear left side of the power supply. When the amplifier power switch is on, you will see 3 green lights: AC on, High V supply, Low V supply.
-- Power up the KPA1500 by pressing the `on` switch on the lower right hand side of the KPA1500 front panel.
+6. Power up the Elecraft KPA1500 amplifier
+
+The IC-7610/NARC1 is connected to the Elecraft KPA1500 amplifier. 
+The power supply for the KPA1500 is under the desk on a small footstool. 
+Check that the KPA1500 power supply is on. 
+If necessary, power-up the power supply by hitting the power switch on the upper rear left side of the power supply. When the amplifier power switch is on, you will see 3 green lights: AC on, High V supply, Low V supply.
+Power up the KPA1500 by pressing the `on` switch on the lower right hand side of the KPA1500 front panel.
 
 ```{r, fig.cap="KPA1500 Power Switch"}
 knitr::include_graphics("img/kpa1500-power-switch.png")
@@ -62,9 +76,14 @@ knitr::include_graphics("img/kpa1500-power-switch.png")
 
 #### Log-in to the computer
 
-- The IC-7610 is connected via USB to the NARC1 PC.
-- Open your logging program of choice. NARC has licenses for N1MM and N3FJP's Amateur Contact Log.
-- To operate digital modes (e.g., FT8/FT4, JS8Call, fldigi), open those programs. 
+1. Power up the PC by pressing the power button on the front panel.
+
+2. Log-in using the appropriate password
+
+The IC-7610/NARC1 is connected via USB2 to the NARC1 PC.
+Open your logging program of choice. NARC has licenses for N1MM and N3FJP's Amateur Contact Log.
+
+To operate digital modes (e.g., FT8/FT4, JS8Call, fldigi), open those programs. 
 See instructions for operating these modes in separate documents.
 
 ### Basic controls

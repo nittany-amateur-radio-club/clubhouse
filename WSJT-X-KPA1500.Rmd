@@ -4,6 +4,13 @@ date: "`r Sys.time()`"
 output: html_document
 ---
 
+```{r, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, 
+                      message = FALSE,
+                      fig.align = "center",
+                      out.width = "6.5in")
+```
+
 1. For < 100W output, set amplifier to STBY mode (yellow light) by pressing the MODE button to toggle between STBY (yellow light) and OPER (green). 
 
 ```{r}
