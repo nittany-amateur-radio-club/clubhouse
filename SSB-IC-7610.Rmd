@@ -9,7 +9,7 @@ output: html_document
 knitr::opts_chunk$set(echo = FALSE, warning = FALSE, 
                       message = FALSE,
                       fig.align = "center",
-                      out.width = "6.5in")
+                      out.width = "600px")
 ```
 
 ### SSB on IC-7610/NARC1
