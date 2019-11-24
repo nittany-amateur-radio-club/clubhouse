@@ -51,6 +51,10 @@ Plug the cable from the radio into the cable connector for one of the antennas, 
 
 4. Power up the Astron RS-35A power supply that powers the IC-7610/NARC1. The power supply is located to the right of the Elecraft KPA1500 amplifier.
 
+```{r, fig.cap="Astron RS-35A"}
+knitr::include_graphics("img/astron-rs-35a.png")
+```
+
 5. Power up the IC-7610/NARC1 by pressing and briefly holding the power button.
 
 ```{r, fig.cap="IC-7610 power switch"}

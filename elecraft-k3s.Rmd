@@ -54,6 +54,10 @@ Press and hold the UPS POWER button until you hear 2 beeps.
 The power supply is located to the far right of the NARC2 station.
 Press the red 'on' switch on the lower left front part of the panel. 
 
+```{r, fig.cap="Astron RS-35A"}
+knitr::include_graphics("img/astron-rs-35a.png")
+```
+
 5. Power up the K3S.
 
 The POWER button is on the left side of the left side of the rig front panel.
