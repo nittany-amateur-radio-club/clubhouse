@@ -58,6 +58,10 @@ Please report any issues that need to be addressed.
 ```{r kpa1500, child = 'KPA1500.Rmd'}
 ```
 
+<!-- IC-2710 Packet -->
+```{r kpa1500, child = 'packet.Rmd'}
+```
+
 # Operating procedures
 
 ## Digital modes
