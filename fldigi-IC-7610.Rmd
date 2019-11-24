@@ -5,13 +5,6 @@ date: "`r Sys.time()`"
 output: html_document
 ---
 
-```{r, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE, warning = FALSE, 
-                      message = FALSE,
-                      fig.align = "center",
-                      out.width = "600px")
-```
-
 ### fldigi on IC-7610/NARC1
 
 As of 2019-10-20, the installed version is 4.1.03.

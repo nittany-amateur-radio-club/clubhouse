@@ -16,7 +16,8 @@ output:
 knitr::opts_chunk$set(echo = FALSE, warning = FALSE, 
                       message = FALSE,
                       fig.align = "center",
-                      out.width = "600px")
+                      fig.width = 6.5,
+                      out.width = "75%")
 ```
 
 # Arrival procedures
@@ -24,6 +25,11 @@ knitr::opts_chunk$set(echo = FALSE, warning = FALSE,
 - Unlock the gate. Use the small key to unlock the padlock. The larger key opens the clubhouse itself. Take the padlock with you to the shack.
 - Close the gate and replace the lock bar, but do not re-lock the gate.
   - If you know that others will be joining you, you may leave the gate open, but make sure to park cross-wise, blocking the past the shack. This ensures that no other driver can inadvertently drive past you and get locked behind the gate when you leave.
+  
+```{r, fig.cap="NARC Clubhouse looking North"}
+knitr::include_graphics("img/clubhouse-looking-north.jpg")
+```
+  
 - Unlock door of the shack using the larger of the two keys. 
 There is one lock above the door handle. 
 Turn the key to the left (counterclockwise) to unlock the door.
@@ -34,6 +40,7 @@ Turn the key to the left (counterclockwise) to unlock the door.
 By default, we leave breakers 7-14 -- the baseboard and north wall 240 V heaters -- **off**, and the remainder on. 
   - Turn breakers 7-14 **on** by pushing the breaker lever to the left to align with the others.
 - The porta potty key is on the desktop to the right of the door.
+The porta potty is on the South side of the shack.
 - Please text Rick K3ROG (814-777-3298), Eric W3EDP (814-867-3393), or Mike N3LI (814-404-3991) when you leave. 
 Please report any issues that need to be addressed.
 
@@ -103,3 +110,6 @@ Check again to confirm that the door is closed and locked.
 - Swing the gate back into closed position. Place the lock bar in position, and lock the gate.
 - Please text Rick K3ROG (814-777-3298), Eric W3EDP (814-867-3393), or Mike N3LI (814-404-3991,) when you leave. 
 Please report any issues that need to be addressed.
+
+```{r, child='antennas.Rmd'}
+```
