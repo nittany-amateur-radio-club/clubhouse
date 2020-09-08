@@ -109,8 +109,9 @@ knitr::include_graphics("img/clubhouse-panorama.jpeg")
 - Digital-only station (IC-9100?)
 - Replace PCs and monitors
 
-## Possible clubhouse use
+## Future clubhouse use
 
+- October 3 • ARRL Simulated Emergency Test (SET)
 - November 7-9 • ARRL Sweepstakes CW
 - November 21-23 • ARRL Sweepstakes SSB
 - November 28-29 • CQ WW DX CW
