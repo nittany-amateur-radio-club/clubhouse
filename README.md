@@ -9,7 +9,7 @@ Files related to use of the NARC mountaintop clubhouse.
 
 ## Clubhouse reports
 
-- [2020-10-26](https://nittany-amateur-radio-club.github.io/clubhouse/2020-09-08-clubhouse-rpt.html) and [antenna report](https://nittany-amateur-radio-club.github.io/clubhouse/antenna-status-2020-10-26.html)
+- [2020-10-26](https://nittany-amateur-radio-club.github.io/clubhouse/2020-09-08-clubhouse-rpt.html) and an [antenna report](https://nittany-amateur-radio-club.github.io/clubhouse/antenna-status-2020-10-26.html)
 - [2020-09-08](https://nittany-amateur-radio-club.github.io/clubhouse/2020-09-08-clubhouse-rpt.html)
 - [2020-08-25](https://nittany-amateur-radio-club.github.io/clubhouse/2020-08-25-clubhouse-rpt.html)
 - [2020-05-12](https://nittany-amateur-radio-club.github.io/clubhouse/2020-05-12-clubhouse-rpt.html)
