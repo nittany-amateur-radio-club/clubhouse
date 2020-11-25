@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 
 <meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 <meta name="author" content="Rick Gilmore K3ROG" />
@@ -14,6 +14,7 @@
 
 <title>NARC clubhouse guide</title>
 
+<script src="clubhouse-guide_files/header-attrs-2.3/header-attrs.js"></script>
 <script src="clubhouse-guide_files/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="clubhouse-guide_files/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
@@ -88,7 +89,6 @@ code {
 }
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -150,6 +150,7 @@ summary {
   border: none;
   display: inline-block;
   border-radius: 4px;
+  background-color: transparent;
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li {
@@ -162,56 +163,12 @@ summary {
 }
 </style>
 
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
-
 <!-- code folding -->
 <style type="text/css">
 .code-folding-btn { margin-bottom: 4px; }
 </style>
-<script>
-$(document).ready(function () {
-  window.initializeCodeFolding("hide" === "show");
-});
-</script>
 
 
-
-<script>
-$(document).ready(function ()  {
-
-    // move toc-ignore selectors from section div to header
-    $('div.section.toc-ignore')
-        .removeClass('toc-ignore')
-        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
-
-    // establish options
-    var options = {
-      selectors: "h1,h2,h3,h4,h5",
-      theme: "bootstrap3",
-      context: '.toc-content',
-      hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
-      },
-      ignoreSelector: ".toc-ignore",
-      scrollTo: 0
-    };
-    options.showAndHide = true;
-    options.smoothScroll = true;
-
-    // tocify
-    var toc = $("#TOC").tocify(options).data("toc-tocify");
-});
-</script>
 
 <style type="text/css">
 
@@ -225,6 +182,12 @@ $(document).ready(function ()  {
 }
 }
 
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
 
 .toc-content {
   padding-left: 30px;
@@ -305,7 +268,7 @@ div.tocify {
 
 <h1 class="title toc-ignore">NARC clubhouse guide</h1>
 <h4 class="author">Rick Gilmore K3ROG</h4>
-<h4 class="date">2019-12-06 16:10:48</h4>
+<h4 class="date">2020-11-25 09:53:47</h4>
 
 </div>
 
@@ -331,12 +294,30 @@ NARC Clubhouse looking North
 <li>Put the padlock and locking bar on the desk near the door.</li>
 <li>Turn up the heat, if needed.
 <ul>
-<li>Go to the breaker box near the southeast corner of the shack (on your right as you enter the shack). By default, we leave breakers 7-14 – the baseboard and north wall 240 V heaters – <strong>off</strong>, and the remainder on.</li>
+<li>Go to the breaker box near the southeast corner of the shack (on your right as you enter the shack). By default, we leave breakers 7-14 – the baseboard and north wall 240 V heaters – <strong>off</strong>, and the remainder on. There is a label on the breaker panel to remind you.</li>
 <li>Turn breakers 7-14 <strong>on</strong> by pushing the breaker lever to the left to align with the others.</li>
 </ul></li>
-<li>The porta potty key is on the desktop to the right of the door. The porta potty is on the South side of the shack.</li>
+<li>The porta potty key is on a hook to the right of the door. The porta potty is on the South side of the shack.</li>
 <li>Please text Rick K3ROG (814-777-3298), Eric W3EDP (814-867-3393), or Mike N3LI (814-404-3991) when you leave. Please report any issues that need to be addressed.</li>
 </ul>
+</div>
+<div id="wifi-internet-use" class="section level1">
+<h1>Wifi &amp; internet use</h1>
+<!-- Icom IC-7610 -->
+<div id="background" class="section level2">
+<h2>Background</h2>
+<p>Thanks to the work of Mark K0LO and Eric Brooks N3EB, the clubhouse got internet service in the fall of 2020.</p>
+</div>
+<div id="connecting-to-wifi" class="section level2">
+<h2>Connecting to wifi</h2>
+<p>The wifi is for club members only. The ssid is <code>NARC Members</code>.</p>
+<p>Ask Mike N3LI, Rick K3ROG, or Eric W3EDP for the password.</p>
+</div>
+<div id="connecting-to-the-internet-via-an-ethernet-cable" class="section level2">
+<h2>Connecting to the internet via an Ethernet cable</h2>
+<p>The TP Link bridge/router has ethernet ports you may plug in to.</p>
+<p>Note that NARC1, NARC2, and NARC3 use ports 1, 3, and 5. Please leave these connections alone. The system runs a DHCP server, so you should be able to plug in your computer and acquire an IP address after a few moments.</p>
+</div>
 </div>
 <div id="equipment-setup" class="section level1">
 <h1>Equipment setup</h1>
@@ -584,9 +565,57 @@ KPA1500 Power Switch
 <div id="w-operation-1" class="section level5">
 <h5>&gt; 100 W operation</h5>
 <p>For modes where power &gt; 100 W is desired (e.g., phone, CW, RTTY), you will need to tune-up the amplifier.</p>
+<!-- KPA1500 tuning -->
+</div>
+</div>
+</div>
+</div>
+<div id="tuning-the-elecraft-kpa1500" class="section level2">
+<h2>Tuning the Elecraft KPA1500</h2>
+<p><img src="img/kpa1500.png" width="75%" style="display: block; margin: auto;" /></p>
+<div id="confirm-connections.-1" class="section level3">
+<h3>Confirm connections.</h3>
+<ol style="list-style-type: decimal">
+<li><p>The amplifier should be connected via the ANT 1 input to an antenna. The feedlines hang from hooks near the North wall of the station and each has label indicating which radio station (NARC-1/IC-7610, NARC-2/K3S, or NARC-3/IC-9100) the feedline services.</p></li>
+<li><p>If the amplifier is connected to an antenna, you may power-up by pressing the button on the front of the amplifier.</p></li>
+<li><p>Confirm that the antenna input selector is set to ANT 1.</p></li>
+</ol>
+<p><img src="img/kpa1500-ant.png" width="75%" style="display: block; margin: auto;" /></p>
+<ol start="4" style="list-style-type: decimal">
+<li>The amplifier should be connected to the IC-7610 or K3S via a short coax patch cable. The default configuration is from the amplifier to the transceiver’s ANT 1 port.</li>
+</ol>
+</div>
+<div id="ensure-that-antenna-tuner-is-in-line-1" class="section level3">
+<h3>Ensure that antenna tuner is in-line</h3>
+<p>NARC offers a variety of resonant antennas for your use, but it is prudent to use the automatic antenna tuner that the KPA1500 provides.</p>
+<p>On the KPA1500 front panel, press the ATU TUNE/ATU MODE button to select the ATU IN mode (green light).</p>
+<p><img src="img/kpa1500-atu.png" width="75%" style="display: block; margin: auto;" /></p>
+</div>
+<div id="ensure-amplifier-and-tuner-are-in-line" class="section level3">
+<h3>Ensure amplifier and tuner are in-line</h3>
+<p>The green OPER light needs to be illuminated. Press the MODE key if necessary.</p>
+<p><img src="img/kpa1500-mode.png" width="75%" style="display: block; margin: auto;" /></p>
+</div>
+<div id="ic-7610-procedure" class="section level3">
+<h3>IC-7610 procedure</h3>
+<ol style="list-style-type: decimal">
+<li><p>Find an open frequency in the band.</p></li>
+<li><p>The KPA1500 has auto-band-switching capability, but it is a good practice to confirm that the amplifier is on the band you are on. Press the appropriate BAND button to switch bands.</p></li>
+<li><p>On the IC-7610</p>
+<ol style="list-style-type: lower-alpha">
+<li>Select the RTTY mode by pressing the mode indicator on the touchscreen.</li>
+<li>Press the MULTI button to bring up a menu with the RF POWER control. Set the RF power to a low level; 8 W or so is a good place to start.</li>
+<li>Apply RF drive. Press the TRANSMIT button (in the upper right corner of the front panel) to apply RF. Note the output power and SWR on the KPA1500. If the antenna is out of resonance, the ATU will seek a match. When the best match is found, press TRANSMIT again to turn off the RF drive.</li>
+</ol></li>
+<li><p>Increase the RF drive by a small amount, 5-10 W, and repeat 5c. until your desired output power (as indicated on the KPA1500) is reached.</p></li>
+<li><p>Change the mode on the IC-7610 to your desired operating mode, for example SSB.</p></li>
+<li><p>Press the MULTI button to close the menu if needed.</p></li>
+</ol>
+</div>
+<div id="k3s-procedure" class="section level3">
+<h3>K3S procedure</h3>
+<p>Under construction!</p>
 <!-- IC-2710 Packet -->
-</div>
-</div>
 </div>
 </div>
 <div id="packet-station" class="section level2">
@@ -705,7 +734,7 @@ IC-2710 Packet Transceiver
 <li>For &lt; 100W output, set amplifier to STBY mode (yellow light) by pressing the MODE button to toggle between STBY (yellow light) and OPER (green).</li>
 </ol>
 <p><img src="img/kpa1500-mode.png" width="75%" style="display: block; margin: auto;" /></p>
-<p>For higher power output, follow separate instructions for tuning the KPA1500 amplifier.</p>
+<p>For higher power output, follow separate instructions for <a href="KPA1500-tuning.html">tuning the KPA1500 amplifier</a>.</p>
 <ol start="2" style="list-style-type: decimal">
 <li>Confirm ANT1 is output (press ANTENNA to toggle).</li>
 </ol>
@@ -772,7 +801,7 @@ IC-2710 Packet Transceiver
 <li>For &lt; 100W output, set amplifier to STBY mode (yellow light) by pressing the MODE button to toggle between STBY (yellow light) and OPER (green).</li>
 </ol>
 <p><img src="img/kpa1500-mode.png" width="600px" style="display: block; margin: auto;" /></p>
-<p>For higher power output, follow separate instructions for tuning the KPA1500 amplifier.</p>
+<p>For higher power output, follow separate instructions for <a href="KPA1500-tuning.html">tuning the KPA1500 amplifier</a>.</p>
 <ol start="2" style="list-style-type: decimal">
 <li>Confirm ANT1 is output (press ANTENNA to toggle).</li>
 </ol>
@@ -877,7 +906,7 @@ IC-2710 Packet Transceiver
 <li>For &lt; 100W output, set amplifier to STBY mode (yellow light) by pressing the MODE button to toggle between STBY (yellow light) and OPER (green).</li>
 </ol>
 <p><img src="img/kpa1500-mode.png" width="600px" style="display: block; margin: auto;" /></p>
-<p>For higher power output, follow separate instructions for tuning the KPA1500 amplifier.</p>
+<p>For higher power output, follow separate instructions for <a href="KPA1500-tuning.html">tuning the KPA1500 amplifier</a>.</p>
 <ol start="2" style="list-style-type: decimal">
 <li>Confirm ANT1 is output (press ANTENNA to toggle).</li>
 </ol>
@@ -956,7 +985,7 @@ IC-2710 Packet Transceiver
 <li>For &lt; 100W output, set amplifier to STBY mode (yellow light) by pressing the MODE button to toggle between STBY (yellow light) and OPER (green).</li>
 </ol>
 <p><img src="img/kpa1500-mode.png" width="600px" style="display: block; margin: auto;" /></p>
-<p>For higher power output, follow separate instructions for tuning the KPA1500 amplifier.</p>
+<p>For higher power output, follow separate instructions for <a href="KPA1500-tuning.html">tuning the KPA1500 amplifier</a>.</p>
 <ol start="2" style="list-style-type: decimal">
 <li>Confirm ANT1 is output (press ANTENNA to toggle).</li>
 </ol>
@@ -1063,7 +1092,7 @@ IC-2710 Packet Transceiver
 <h2>60’ West Tower</h2>
 <ul>
 <li>4 element triband (10, 15, 20m + WARC) Yagi</li>
-<li><del>40m dipole</del></li>
+<li>40m dipole</li>
 </ul>
 <div class="figure" style="text-align: center">
 <img src="img/60-ft-tower-west.jpg" alt="60' West Tower" width="600px" />
@@ -1088,9 +1117,9 @@ IC-2710 Packet Transceiver
 </div>
 </div>
 <div id="north-tower" class="section level2">
-<h2>80` North Tower</h2>
+<h2>80’ North Tower</h2>
 <ul>
-<li>4 element triband (10, 15, 20m + WARC) Yagi
+<li><del>4 element triband (10, 15, 20m + WARC) Yagi</del>
 <ul>
 <li>Rotor (out-of-service as of 2019-11-24)</li>
 </ul></li>
@@ -1136,8 +1165,8 @@ IC-2710 Packet Transceiver
 <div id="m-1" class="section level2">
 <h2>40 m</h2>
 <ul>
-<li>Dipole (@ 60’) oriented…</li>
-<li>Dipole (@ 80’) oriented NW/SE</li>
+<li>Dipole (@ 60’ West Tower) oriented NW/SE</li>
+<li>Dipole (@ 80’ Middle Tower) oriented NW/SE</li>
 </ul>
 </div>
 <div id="m-2" class="section level2">
@@ -1150,7 +1179,7 @@ IC-2710 Packet Transceiver
 <div id="m-3" class="section level2">
 <h2>160m</h2>
 <ul>
-<li>Dipole on North tower oriented NW/SE</li>
+<li>Dipole on 80’ North tower oriented NW/SE</li>
 </ul>
 </div>
 </div>
@@ -1181,6 +1210,54 @@ $(document).ready(function () {
 });
 
 
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+<script>
+$(document).ready(function () {
+  window.initializeCodeFolding("hide" === "show");
+});
+</script>
+
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3,h4,h5",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
 </script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
