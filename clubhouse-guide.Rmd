@@ -37,12 +37,18 @@ Turn the key to the left (counterclockwise) to unlock the door.
 - Put the padlock and locking bar on the desk near the door.
 - Turn up the heat, if needed. 
   - Go to the breaker box near the southeast corner of the shack (on your right as you enter the shack). 
-By default, we leave breakers 7-14 -- the baseboard and north wall 240 V heaters -- **off**, and the remainder on. 
+By default, we leave breakers 7-14 -- the baseboard and north wall 240 V heaters -- **off**, and the remainder on. There is a label on the breaker panel to remind you.
   - Turn breakers 7-14 **on** by pushing the breaker lever to the left to align with the others.
-- The porta potty key is on the desktop to the right of the door.
+- The porta potty key is on a hook to the right of the door.
 The porta potty is on the South side of the shack.
 - Please text Rick K3ROG (814-777-3298), Eric W3EDP (814-867-3393), or Mike N3LI (814-404-3991) when you leave. 
 Please report any issues that need to be addressed.
+
+# Wifi & internet use
+
+<!-- Icom IC-7610 -->
+```{r wifi-internet, child = 'wifi-internet.Rmd'}
+```
 
 # Equipment setup
 
@@ -58,8 +64,12 @@ Please report any issues that need to be addressed.
 ```{r kpa1500, child = 'KPA1500.Rmd'}
 ```
 
+<!-- KPA1500 tuning -->
+```{r kpa1500-tuning, child = 'KPA1500-tuning.Rmd'}
+```
+
 <!-- IC-2710 Packet -->
-```{r kpa1500, child = 'packet.Rmd'}
+```{r IC-2710, child = 'packet.Rmd'}
 ```
 
 # Operating procedures

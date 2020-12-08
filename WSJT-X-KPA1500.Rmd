@@ -10,7 +10,7 @@ output: html_document
 knitr::include_graphics("img/kpa1500-mode.png")
 ```
 
-For higher power output, follow separate instructions for tuning the KPA1500 amplifier.
+For higher power output, follow separate instructions for [tuning the KPA1500 amplifier](KPA1500-tuning.html).
 
 2. Confirm ANT1 is output (press ANTENNA to toggle).
 

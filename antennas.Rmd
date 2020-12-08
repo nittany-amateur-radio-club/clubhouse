@@ -14,7 +14,7 @@ output:
 ## 60' West Tower
 
 - 4 element triband (10, 15, 20m + WARC) Yagi
-- ~~40m dipole~~
+- 40m dipole
 
 ```{r, fig.cap="60' West Tower"}
 knitr::include_graphics("img/60-ft-tower-west.jpg")
@@ -33,7 +33,7 @@ knitr::include_graphics("img/80-ft-tower-middle.jpg")
 
 ## 80' North Tower
 
-- 4 element triband (10, 15, 20m + WARC) Yagi
+- ~~4 element triband (10, 15, 20m + WARC) Yagi~~
   - Rotor (out-of-service as of 2019-11-24) 
 - 160m dipole oriented NW/SE
 - 80m dipole
@@ -62,7 +62,7 @@ knitr::include_graphics("img/60-ft-tower-east.jpg")
     
 ## 40 m
 
-- ~~Dipole (@ 60' West Tower) oriented NW/SE~~
+- Dipole (@ 60' West Tower) oriented NW/SE
 - Dipole (@ 80' Middle Tower) oriented NW/SE
 
 ## 80m
