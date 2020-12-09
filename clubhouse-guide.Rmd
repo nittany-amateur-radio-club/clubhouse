@@ -60,6 +60,10 @@ Please report any issues that need to be addressed.
 ```{r k3s, child = 'elecraft-k3s.Rmd'}
 ```
 
+<!-- Icom IC-9100 -->
+```{r k3s, child = 'ic-9100.Rmd'}
+```
+
 <!-- KPA1500 -->
 ```{r kpa1500, child = 'KPA1500.Rmd'}
 ```
