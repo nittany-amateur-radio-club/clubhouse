@@ -69,7 +69,7 @@ The K3S will not transmit if the P3 is not powered up.
   
 6. Power up the Elecraft KPA1500 amplifier
 
-The IC-7610/NARC1 is connected to the Elecraft KPA1500 amplifier. 
+The K3S/NARC2 is connected to the Elecraft KPA1500 amplifier. 
 The power supply for the KPA1500 is under the desk on a small footstool. 
 Check that the KPA1500 power supply is on. 
 If necessary, power-up the power supply by hitting the power switch on the upper rear left side of the power supply. When the amplifier power switch is on, you will see 3 green lights: AC on, High V supply, Low V supply.
