@@ -29,6 +29,7 @@ knitr::opts_chunk$set(echo = FALSE,
   - Install new computer & monitor at NARC-1.
 - Parts estimate for Mosley Classic CL-33-WARC
   - New [price](http://www.mosley-electronics.com/pdf/pricesheet.pdf) is $1,182.95.
+  - Estimate for parts to is $747.70 + tax (if applicable to shipping), 45-60 day lead
 
 ---
 
