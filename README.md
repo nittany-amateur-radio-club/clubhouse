@@ -9,6 +9,7 @@ Files related to use of the NARC mountaintop clubhouse.
 
 ## Clubhouse reports
 
+- [2021-04-13 N3M](https://nittany-amateur-radio-club.github.io/clubhouse/2021-04-13-n3m-event.html)
 - [2021-04-13 upcoming events](https://nittany-amateur-radio-club.github.io/clubhouse/2021-04-13-clubhouse-events.html)
 - [2021-04-13](https://nittany-amateur-radio-club.github.io/clubhouse/2021-04-13-clubhouse-rpt.html)
 - [2021-03-23](https://nittany-amateur-radio-club.github.io/clubhouse/2021-03-23-clubhouse-rpt.html)

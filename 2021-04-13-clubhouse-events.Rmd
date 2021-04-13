@@ -41,3 +41,4 @@ knitr::include_graphics("img/w3m-qsl.jpg")
 - Home stations + mountaintop
     - Home (Class D) and Home on Emergency Power (Class E) stations permitted to contact all stations.
     - [150W power limits](http://www.arrl.org/news/arrl-to-extend-field-day-rule-waivers-from-2020-add-class-d-and-e-power-limit)
+    
