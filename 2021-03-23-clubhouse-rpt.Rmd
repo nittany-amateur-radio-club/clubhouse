@@ -26,7 +26,10 @@ knitr::opts_chunk$set(echo = FALSE,
 - Work day (K3ROG, N3LI, KB1BH)
   - Tweak packet station (KB1BH)
   - List required parts for Mosley Classic CL-33-WARC
-  - Install new computer & monitor at NARC-1.
+  - Install new computer & monitor at NARC-1
+  
+---
+
 - Parts estimate for Mosley Classic CL-33-WARC
   - New [price](http://www.mosley-electronics.com/pdf/pricesheet.pdf) is $1,182.95.
   - Estimate for parts to is $747.70 + tax (if applicable to shipping), 45-60 day lead
@@ -36,8 +39,6 @@ knitr::opts_chunk$set(echo = FALSE,
 ```{r, fig.cap="N3LI installing fldigi."}
 knitr::include_graphics("img/narc-1-new-computer.jpeg")
 ```
-
----
 
 ## Next steps in computer upgrade
 
@@ -76,7 +77,7 @@ knitr::include_graphics("img/narc-1-new-computer.jpeg")
     - **BEFORE Field Day 2021**
 - Wall of Fame for plaques
 - Install large-scale monitor (w/ Hamclock, PSKreporter, etc. windows on Raspberry Pi)
-    - NK8K donation of TV.
+    - NK8Q donation of TV.
     
 ---
     
