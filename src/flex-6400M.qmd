@@ -1,16 +1,14 @@
 ---
-title: "Icom IC-7610"
+title: "FlexRadio Flex 6400M"
 ---
 
-## IC-7610 HF Transceiver
+## Flex 6400M HF Transceiver
 
-![Icom IC-7610](include/img/ic-7610.jpg)
+![](include/img/flex-6400M.jpg)
 
-This transceiver is currently connected to the NARC1 computer.
+This transceiver is currently connected to the NARC-2 computer.
 
 ### Connect equipment and power-up
-
-- The IC-7610/NARC1 is located closest to the main door off the porch.
 
 ::: {.callout-note}
 
@@ -23,48 +21,53 @@ As a result, the next set of actions may or may not be required.
     - Power cables are located between the wooden shelf and the east wall.
     - Plug the large 240 V cable (green tag) for the amplifier power supply into the 240 V wall outlet.
     - Plug the smaller 120 V cable for the Uninterrupted Power Supply (UPS) into the 120 V wall outlet.
-    
+
 2. Connect the radio to a suitable antenna.
 
 **Before you power up the radio, connect it to a suitable antenna**.
 **The antenna connections are located on the north wall, near the repeater cabinet**.
-Choose the PL-259 connector with the <span color="yellow">yellow</span> IC-7610 tag.
+Choose the PL-259 connector with the <span color="yellow">yellow</span> FlexRadio tag.
 Plug the cable from the radio into the cable connector for one of the antennas, for example, one of the triband Yagis for 10-20 m.
 **Please do not remove the N/PL-259 connectors from the antenna feedlines.**
     
 3. Power up the UPS by pushing the front button. The green power light should illuminate.
 
+::: {.callout-note}
+
+Check to see if the Astron RS-35A power supply is on before carrying out the next step.
+
+:::
+
 4. Power up the Astron RS-35A power supply that powers the IC-7610/NARC1. The power supply is located to the right of the Elecraft KPA1500 amplifier.
 
-```{r, fig.cap="Astron RS-35A"}
-knitr::include_graphics("include/img/astron-rs-35a.png")
-```
+![Astron RS-35A power supply](include/img/astron-rs-35a.png)
 
-5. Power up the IC-7610/NARC1 by pressing and briefly holding the power button.
+5. Power up the Flex/NARC-2 by pressing and briefly holding the power button.
 
-```{r, fig.cap="IC-7610 power switch"}
-knitr::include_graphics("include/img/ic-7610-power-switch.png")
-```
+
+::: {.callout-note}
+
+If you do not plan to use the amplifier or the built-in antenna tuner, you may skip step 6.
+
+:::
 
 6. Power up the Elecraft KPA1500 amplifier
 
-The IC-7610/NARC1 is connected to the Elecraft KPA1500 amplifier. 
+The Flex/NARC-2 is connected to the Elecraft KPA1500 amplifier. 
 The power supply for the KPA1500 is under the desk on a small footstool. 
 Check that the KPA1500 power supply is on. 
 If necessary, power-up the power supply by hitting the power switch on the upper rear left side of the power supply. When the amplifier power switch is on, you will see 3 green lights: AC on, High V supply, Low V supply.
 Power up the KPA1500 by pressing the `on` switch on the lower right hand side of the KPA1500 front panel.
 
-```{r, fig.cap="KPA1500 Power Switch"}
-knitr::include_graphics("include/img/kpa1500-power-switch.png")
-```
-
+![KPA1500 Power Switch](include/img/kpa1500-power-switch.png)
 #### Log-in to the computer
 
-1. Power up the PC by pressing the power button on the front panel.
+1. Power up the PC by pressing the power button on the right rear of the computer/display.
 
-2. Log-in using the appropriate password
+2. Log-in using the appropriate password.
 
-The IC-7610/NARC1 is connected via USB2 to the NARC1 PC.
+The Flex 6400 is connected via USB to the NARC-2 PC.
+
 Open your logging program of choice. NARC has licenses for N1MM and N3FJP's Amateur Contact Log.
 
 To operate digital modes (e.g., FT8/FT4, JS8Call, fldigi), open those programs. 
@@ -72,7 +75,7 @@ See instructions for operating these modes in separate documents.
 
 ### Basic controls
 
-- Audio levels for the two VFOs are controlledd via separate knobs on the left side of the front panel.
+- Audio levels for the two VFOs are controlled via separate knobs on the left side of the front panel.
 
 ```{r}
 knitr::include_graphics("include/img/ic-7610-af.png")

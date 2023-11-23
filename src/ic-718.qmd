@@ -1,23 +1,14 @@
 ---
-title: "Icom IC-7610"
+title: "Icom IC-718"
 ---
 
-## IC-7610 HF Transceiver
+## Icom IC-718
 
-![Icom IC-7610](include/img/ic-7610.jpg)
+![](include/img/ic-7610.jpg)
 
-This transceiver is currently connected to the NARC1 computer.
+This transceiver is currently connected to the NARC-3 computer.
 
 ### Connect equipment and power-up
-
-- The IC-7610/NARC1 is located closest to the main door off the porch.
-
-::: {.callout-note}
-
-We have been experimenting with remote control of some station operations, including powering on the rig power supplies.
-As a result, the next set of actions may or may not be required.
-
-:::
 
 1. Connect to the power mains.
     - Power cables are located between the wooden shelf and the east wall.
@@ -28,7 +19,7 @@ As a result, the next set of actions may or may not be required.
 
 **Before you power up the radio, connect it to a suitable antenna**.
 **The antenna connections are located on the north wall, near the repeater cabinet**.
-Choose the PL-259 connector with the <span color="yellow">yellow</span> IC-7610 tag.
+Choose the PL-259 connector with the <span color="yellow">yellow</span> FlexRadio tag.
 Plug the cable from the radio into the cable connector for one of the antennas, for example, one of the triband Yagis for 10-20 m.
 **Please do not remove the N/PL-259 connectors from the antenna feedlines.**
     
@@ -40,7 +31,7 @@ Plug the cable from the radio into the cable connector for one of the antennas, 
 knitr::include_graphics("include/img/astron-rs-35a.png")
 ```
 
-5. Power up the IC-7610/NARC1 by pressing and briefly holding the power button.
+5. Power up the Flex/NARC-2 by pressing and briefly holding the power button.
 
 ```{r, fig.cap="IC-7610 power switch"}
 knitr::include_graphics("include/img/ic-7610-power-switch.png")
@@ -48,7 +39,7 @@ knitr::include_graphics("include/img/ic-7610-power-switch.png")
 
 6. Power up the Elecraft KPA1500 amplifier
 
-The IC-7610/NARC1 is connected to the Elecraft KPA1500 amplifier. 
+The IFlex/NARC-2 is connected to the Elecraft KPA1500 amplifier. 
 The power supply for the KPA1500 is under the desk on a small footstool. 
 Check that the KPA1500 power supply is on. 
 If necessary, power-up the power supply by hitting the power switch on the upper rear left side of the power supply. When the amplifier power switch is on, you will see 3 green lights: AC on, High V supply, Low V supply.

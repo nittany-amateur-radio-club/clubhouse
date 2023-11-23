@@ -1,0 +1,44 @@
+---
+title: "NARC-1"
+format: html
+---
+
+## Overview
+
+NARC-1 is the first HF station on your left as you enter the station.
+
+### Equipment summary
+
+- Icom IC-7610 (HF + 6m) transceiver
+    - Astron RS-35A power supply
+- Icom SM-50 desk mic
+- Clipper PTT footswitch
+- Heil Pro-7 headset
+- Nifty mini-manual and other manuals are located in the drawer under the radio.
+
+- Dell PC, dual monitor set-up
+
+- Elecraft KPA1500 amplifier
+  - Elecraft power supply
+ 
+### Software summary
+
+- Windows 10
+- Digital modes
+  - WSTJ-X
+  - JS8Call
+  - fldigi suite
+  - VarAC
+- Logging
+  - N1MM
+  - Amateur Contact Log (ACLog) by N3FJP
+
+```{r}
+#| include: false
+library(knitr)
+```
+
+```{r, results='asis', echo=FALSE}
+a <- knitr::knit_child('IC-7610.qmd', quiet=T)
+cat(a, sep="\n")
+```

@@ -10,7 +10,9 @@ book:
     - index.qmd
     - logistics.qmd
     - antennas.qmd
-    - "IC-7610.qmd"
+    - narc1.qmd
+    - narc2.qmd
+    - narc3.qmd
     - "wifi-internet.qmd"
     - packet_aprs.qmd
 
