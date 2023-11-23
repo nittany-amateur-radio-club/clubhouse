@@ -1,0 +1,93 @@
+---
+title: "Elecraft K3S"
+author: "Rick Gilmore K3ROG"
+date: "`r Sys.time()`"
+output: html_document
+---
+
+
+## Elecraft K3S
+
+```{r}
+knitr::include_graphics("img/elecraft-k3s.jpg")
+```
+
+The K3S is currently connected to the NARC2 computer.
+The Elecraft K3S/NARC2 is located in the middle of the long desk to the right of the IC-7610/NARC1 station.
+
+### Equipment summary
+
+- Elecraft K3S (HF + 6m) transceiver
+  - Astron RS-35A power supply
+- Elecraft KPA1500
+  - Elecraft power supply
+- Elecraft P3 Panadapter
+- Footswitch on the floor.
+- Heil Pro 7 headset.
+- Bencher BY-1 paddle.
+- Windows 10 PC, single monitor set-up, dual monitor capable
+  - WSTJ-X, JS8Call, fldigi, N1MM, N3FJP
+
+### Connect and power-up
+
+1. Connect to the power mains.
+
+Power cables are located between the wooden shelf and the east wall. 
+Plug the large 240 V cable (orange tag) for the amplifier power supply into the 240 V wall outlet.
+The UPS is located on the window sill behind the NARC2 station.
+Plug the smaller 120 V cable for the Uninterrupted Power Supply (UPS) into the 120 V wall outlet.
+  
+2. Connect the radio to a suitable antenna.
+
+**Before you power up the radio, connect it to a suitable antenna**.
+**The antenna connections are located on the north wall, near the repeater cabinet**.
+Choose the PL-259 connector with the orange K3S tag.
+Plug the cable from the radio into the cable connector for one of the antennas, for example, one of the triband Yagis for 10-20 m.
+**Please do not remove the N/PL-259 connectors from the antenna feedlines.**
+    
+3. Power up the UPS.
+
+Press and hold the UPS POWER button until you hear 2 beeps.
+
+4. Power up the Astron RS-35A power supply 
+
+The power supply is located to the far right of the NARC2 station.
+Press the red 'on' switch on the lower left front part of the panel. 
+
+```{r, fig.cap="Astron RS-35A"}
+knitr::include_graphics("img/astron-rs-35a.png")
+```
+
+5. Power up the K3S.
+
+The POWER button is on the left side of the left side of the rig front panel.
+
+6. Power up the P3 Panadapter.
+
+**This step is mandatory!**
+The K3S will not transmit if the P3 is not powered up.
+  
+6. Power up the Elecraft KPA1500 amplifier
+
+The K3S/NARC2 is connected to the Elecraft KPA1500 amplifier. 
+The power supply for the KPA1500 is under the desk on a small footstool. 
+Check that the KPA1500 power supply is on. 
+If necessary, power-up the power supply by hitting the power switch on the upper rear left side of the power supply. When the amplifier power switch is on, you will see 3 green lights: AC on, High V supply, Low V supply.
+Power up the KPA1500 by pressing the `on` switch on the lower right hand side of the KPA1500 front panel.
+
+```{r, fig.cap="KPA1500 Power Switch"}
+knitr::include_graphics("img/kpa1500-power-switch.png")
+```
+
+#### Log-in to the computer
+
+1. Power up the NARC2 PC by pressing the power button on the front panel.
+
+2. Log-in using the appropriate password
+
+The K3S/NARC2 is connected via USB2 to the NARC2 PC.
+Open your logging program of choice. 
+NARC has licenses for N1MM and N3FJP's Amateur Contact Log.
+
+To operate digital modes (e.g., FT8/FT4, JS8Call, fldigi), open those programs. 
+See instructions for operating these modes in separate documents.

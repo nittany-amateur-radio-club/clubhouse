@@ -1,0 +1,23 @@
+---
+title: "Packet/APRS"
+---
+
+## Packet station
+
+The packet station is located along the North wall of the shack near the HF antenna feedlines.
+
+- Icom IC-2710 Dual Band Transceiver set to 145.030 MHz
+- HP Computer
+- Astron power supply
+
+![IC-2710 Packet Transceiver](include/img/packet.jpg)
+
+## APRS station
+
+The station and TNC are located in the cabinet near the back door of the shack.
+
+The [W3YA-1 digipeater](https://aprs.fi/#!mt=roadmap&z=13&call=a%2FW3YA-1&timerange=3600&tail=3600) operates on 144.390 MHz.
+
+
+
+

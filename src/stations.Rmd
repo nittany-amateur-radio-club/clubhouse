@@ -1,0 +1,39 @@
+---
+title: "stations"
+---
+
+## Stations
+
+- **NARC-1**
+    - Icom IC-7610 (HF + 6m)
+      - Astron power supply
+    - Elecraft KPA1500
+      - Elecraft power supply
+    - Windows 10 PC, dual monitor set-up
+        - WSTJ-X, JS8Call, fldigi, N1MM, N3FJP
+        
+---
+
+- **NARC-2**
+    - Elecraft K3S (HF + 6m)
+      - Astron power supply
+    - Elecraft KPA1500
+    - Elecraft P3 Panadapter
+    - Windows 10 PC, single monitor set-up, dual monitor capable
+      - WSTJ-X, JS8Call, ~~fldigi~~, N1MM, N3FJP
+
+---
+
+- **NARC-3**
+    - Icom 746 Pro (HF/VHF/UHF)
+      - Icom power supply
+    - No amplifier
+    - Windows 10 PC, single monitor set-up, dual monitor capable
+
+---
+
+- **NARC-4**
+    - Kenwood TS-450D
+    - No amplifier
+    - No PC
+    

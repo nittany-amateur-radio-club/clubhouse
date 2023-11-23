@@ -1,0 +1,71 @@
+---
+title: "SSB Operations on IC-7610"
+author: "Rick Gilmore K3ROG"
+date: "`r Sys.time()`"
+output: html_document
+---
+
+### SSB on IC-7610/NARC1
+
+#### On the PC
+
+You do not need to use the PC to operate phone, but you may want to use the PC for logging.
+
+1. Power up the NARC2 PC by pressing the power button on the front panel.
+
+2. Log-in using the appropriate password
+
+The K3S/NARC2 is connected via USB2 to the NARC2 PC.
+Open your logging program of choice. 
+NARC has licenses for N1MM and N3FJP's Amateur Contact Log.
+
+##### N1MM
+
+**Please do not update N1MM without asking Mike N3LI, Rick K3ROG, Eric W3EDP first.**
+
+##### Amateur Contact Log (N3FJP)
+
+You may need to download the specific log for the contest you want to work.
+
+#### On the IC-7610
+
+1. Confirm the rig is in SSB mode.
+
+To change the mode, press the mode indicator on the touch screen to open a window to toggle the mode (USB/LSB).
+
+```{r}
+knitr::include_graphics("img/ic-7610-chg-mode.png")
+```
+
+Remember, the convention is to use LSB below 10 MHz except for 60m.
+
+2. Set your bandwidth by pressing the FILTER button located on the right side of the front panel.
+
+You may adjust the filter settings by pressing and holding the filter button on the right side of the rig control panel. Press and hold the FILTER button on to save and apply the filter settings.
+
+```{r}
+knitr::include_graphics("img/ic-7610-filter.png")
+```
+
+2. Check audio output levels.
+
+3. Set desired power output using MULTI knob.
+
+```{r}
+knitr::include_graphics("img/ic-7610-multi.png")
+```
+
+Press and hold the MULTI button to open a window on the touch/display screen.
+Press the RF POWER panel and rotate the MULTI button to set RF power.
+
+#### On KPA1500
+
+1. For < 100W output, set amplifier to STBY mode (yellow light) by pressing MODE button to toggle between STBY and OPER. 
+
+For higher power output, follow separate instructions for tuning the KPA1500 amplifier.
+
+2. Confirm ANT1 is output (press ANTENNA to toggle).
+
+3. Confirm ATU is IN (not BYP) by pressing and holding ATU TUNE button. 
+
+Have fun!

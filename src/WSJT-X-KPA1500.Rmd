@@ -1,0 +1,27 @@
+---
+title: "WSJT-X-KPA1500"
+date: "`r Sys.time()`"
+output: html_document
+---
+
+1. For < 100W output, set amplifier to STBY mode (yellow light) by pressing the MODE button to toggle between STBY (yellow light) and OPER (green). 
+
+```{r}
+knitr::include_graphics("img/kpa1500-mode.png")
+```
+
+For higher power output, follow separate instructions for [tuning the KPA1500 amplifier](KPA1500-tuning.html).
+
+2. Confirm ANT1 is output (press ANTENNA to toggle).
+
+```{r}
+knitr::include_graphics("img/kpa1500-ant.png")
+```
+
+3. Confirm ATU is IN (not BYP) by pressing and holding ATU TUNE button. 
+
+```{r}
+knitr::include_graphics("img/kpa1500-atu.png")
+```
+
+Have fun!

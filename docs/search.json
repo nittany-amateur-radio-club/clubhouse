@@ -1,0 +1,100 @@
+[
+  {
+    "objectID": "index.html#about",
+    "href": "index.html#about",
+    "title": "Nittany ARC Station Guide",
+    "section": "About",
+    "text": "About\nWelcome to the Nittany Amateur Radio Club’s (NARC) station guide. The radio station is one of the best benefits of joining the club.\nRick Gilmore, W3TM manages the station with the help of Mike Coslo N3LI, Eric Prescott W3EDP, and Woody Brem K3YV. Mark Wharton K0LO provides computer networking support.\nThis site provides information about how to gain access to the mountaintop station and how to use the equipment."
+  },
+  {
+    "objectID": "logistics.html#location",
+    "href": "logistics.html#location",
+    "title": "Logistics",
+    "section": "Location",
+    "text": "Location\nThe station is located in the Rothrock State Forest. The club pays a nominal fee to rent the property. The location on top of a mountain means that our HF antennas have excellent take-off angles, especially to the north and north-northwest."
+  },
+  {
+    "objectID": "logistics.html#keys",
+    "href": "logistics.html#keys",
+    "title": "Logistics",
+    "section": "Keys",
+    "text": "Keys\nMembers who wish to access the station must get two keys from W3TM. One key opens the padlock that secures the yellow access road gate. This key also opens the portable toilet. A second key opens the station door.\nW3TM prefers to give new members an in-person tour of the station. So, please schedule that tour at your convenience. You’ll receive your keys during the tour."
+  },
+  {
+    "objectID": "logistics.html#arrival-procedures",
+    "href": "logistics.html#arrival-procedures",
+    "title": "Logistics",
+    "section": "Arrival procedures",
+    "text": "Arrival procedures\nHere is the sequence we prefer all members use when accessing the mountaintop station.\n\nUnlock the yellow gate. Use the small key to unlock the padlock. The larger key opens the clubhouse itself. Take the padlock and locking bolt with you to the shack.\nClose the gate and replace the lock bar, but do not re-lock the gate.\nIf you know that others will be joining you soon, you may leave the gate open, but make sure to park cross-wise, blocking the past the shack. This ensures that no other driver can inadvertently drive past you and get locked behind the gate when you leave.\n\n\n\n\nNARC Clubhouse looking North\n\n\n\nUnlock door of the shack using the larger of the two keys. There is one lock above the door handle. Turn the key to the left (counterclockwise) to unlock the door.\nThere are light switches on the left just inside the door.\nPut the padlock and locking bar on the desk near the door.\nTurn up the heat, if needed.\n\nGo to the breaker box near the southeast corner of the shack (on your right as you enter the shack). By default, we leave breakers 7-14 – the baseboard and north wall 240 V heaters – off, and the remainder on. There is a label on the breaker panel to remind you.\nTurn breakers 7-14 on by pushing the breaker lever to the left to align with the others.\n\nThe porta potty key is on a hook to the right of the door. The porta potty is on the South side of the shack.\nPlease text W3TM K3ROG (814-777-3298), Eric W3EDP (814-867-3393), or Mike N3LI (814-404-3991) when you leave. Please report any issues that need to be addressed."
+  },
+  {
+    "objectID": "antennas.html#towers",
+    "href": "antennas.html#towers",
+    "title": "Antennas",
+    "section": "Towers",
+    "text": "Towers\nWith the help of K3ARL’s team from Centre Communications, the club maintains four towers.\n\n60 foot tower\n\n4 element Mosley triband (10, 15, 20m + WARC bands - 12 and 17m) Yagi\n40m dipole\n\n\n\n\n60 foot tower\n\n\n\n\n100 foot tower\n\nVHF 4 element vertical orientation Yagi + rotator\n2 VHF fixed direction vertical orientation 6 element Yagis (W3YA system)\nVHF 2m vertical polarization\n20m dipole\n\n\n\n\n100 foot tower\n\n\n\n\n80 foot tower\n\n4 element triband (10, 15, 20m + WARC) Yagi\n\nRotor\n\n160m dipole\n40m dipole\n\n\n\n\n80 foot tower\n\n\n\n\n60 foot tower\n\nVHF vertical\n80m dipole oriented N/S\n\n\n\n\n60 foot tower"
+  },
+  {
+    "objectID": "antennas.html#antennas-by-band",
+    "href": "antennas.html#antennas-by-band",
+    "title": "Antennas",
+    "section": "Antennas by band",
+    "text": "Antennas by band\n\n10, 12, 15, 17, 20m\n\n4 element triband (10, 15, 20m + WARC bands - 12 and 17m) Yagi (on 60 foot tower)\n\nYaesu rotator (new in 2023)\nGreen Heron rotator controller (new in 2023)\n\n4 element Mosley Classic triband (10, 15, 20m + WARC bands - 12 and 17m) Yagi (on 80 foot tower) (new in 2023)\n\nYaesu rotator (new in 2023)\nGreen Heron rotator controller (new in 2023)\n\n\n\n\n40 m\n\nDipole (on 100 foot tower )\n\nCurrent out of service.\n\nDipole (on 80 foot tower)\n\n\n\n\n\n\n\nNote\n\n\n\nThe 40m dipole on the 100 foot tower has been replaced with a 20m dipole. A replacement 40m/80m fan dipole has been ordered. We hope to install the dipole soon.\n\n\n\n\n80m\n\nDipole, CW cut, on 60 foot tower.\nDipole, Phone (75m) on other 60 foot tower.\n\n\n\n160m\n\nDipole on 80’ north tower.\n\n\n\n\n\n\n\nNote\n\n\n\nThe 160m dipole is out of service. A replacement has been acquired. The club hopes to install the replacement in Fall 2023.\n\n\n\n\nVHF/UHF\n\nThe club has acquired a 6m yagi for future installation on the 100 foot tower.\nThe K3YV UHF repeater has its transmit and receive antenna on the 60 foot tower.\nThe club does not have resonant antennas for 30 or 60m."
+  },
+  {
+    "objectID": "antennas.html#future-plans",
+    "href": "antennas.html#future-plans",
+    "title": "Antennas",
+    "section": "Future plans",
+    "text": "Future plans\n\nThe club has plans to replace some of our 40m and 80m single band dipoles with 40m/80m fan dipoles. Those antennas are on-hand, but have not yet been installed.\nThe club has acquired a 6m Yagi. We plan to install that antenna on the 100 foot tower at a future date.\nThere is a vertically polarized 2m Yagi on top of the 100 foot tower. The 6m antenna may replace the 2m antenna, or we may service or replace the 2m antenna.\nThere has been some discussion about installing an HF receive antenna, and about building or installing antennas for 60m and 30m."
+  },
+  {
+    "objectID": "antennas.html#antenna-use",
+    "href": "antennas.html#antenna-use",
+    "title": "Antennas",
+    "section": "Antenna use",
+    "text": "Antenna use\n\nConfirm that it is impossible for your transceiver to transmit while you are connecting your transceiver’s (color-tagged) feedline to one of the antenna connectors.\nSwitch antennas manually by connecting your radio feedline from array of antenna connectors on the north wall.\nWhen you leave the shack, disconnect the transceiver feedline from the antenna you were using."
+  },
+  {
+    "objectID": "IC-7610.html#ic-7610-hf-transceiver",
+    "href": "IC-7610.html#ic-7610-hf-transceiver",
+    "title": "Icom IC-7610",
+    "section": "IC-7610 HF Transceiver",
+    "text": "IC-7610 HF Transceiver\n\nknitr::include_graphics(\"include/img/ic-7610.jpg\")\n\n\n\n\nIC-7610\n\n\n\n\nThis transceiver is currently connected to the NARC1 computer.\n\nEquipment summary\n\nIcom IC-7610 (HF + 6m) transceiver\n\nAstron RS-35A power supply\n\nElecraft KPA1500\n\nElecraft power supply\n\nIcom SM-50 desk mic\nClipper PTT footswitch\nHeil Pro-7 headset\nNifty mini-manual and other manuals are located in the drawer under the radio.\nDell PC, dual monitor set-up\n\nWindows 10\nWSTJ-X, JS8Call, fldigi suite\nN1MM, N3FJP\n\n\n\n\nConnect equipment and power-up\n\nThe IC-7610/NARC1 is located closest to the main door off the porch.\n\n\nConnect to the power mains.\n\nPower cables are located between the wooden shelf and the east wall.\nPlug the large 240 V cable (green tag) for the amplifier power supply into the 240 V wall outlet.\nPlug the smaller 120 V cable for the Uninterrupted Power Supply (UPS) into the 120 V wall outlet.\n\nConnect the radio to a suitable antenna.\n\nBefore you power up the radio, connect it to a suitable antenna. The antenna connections are located on the north wall, near the repeater cabinet. Choose the PL-259 connector with the yellow IC-7610 tag. Plug the cable from the radio into the cable connector for one of the antennas, for example, one of the triband Yagis for 10-20 m. Please do not remove the N/PL-259 connectors from the antenna feedlines.\n\nPower up the UPS by pushing the front button. The green power light should illuminate.\nPower up the Astron RS-35A power supply that powers the IC-7610/NARC1. The power supply is located to the right of the Elecraft KPA1500 amplifier.\n\n\nknitr::include_graphics(\"include/img/astron-rs-35a.png\")\n\n\n\n\nAstron RS-35A\n\n\n\n\n\nPower up the IC-7610/NARC1 by pressing and briefly holding the power button.\n\n\nknitr::include_graphics(\"include/img/ic-7610-power-switch.png\")\n\n\n\n\nIC-7610 power switch\n\n\n\n\n\nPower up the Elecraft KPA1500 amplifier\n\nThe IC-7610/NARC1 is connected to the Elecraft KPA1500 amplifier. The power supply for the KPA1500 is under the desk on a small footstool. Check that the KPA1500 power supply is on. If necessary, power-up the power supply by hitting the power switch on the upper rear left side of the power supply. When the amplifier power switch is on, you will see 3 green lights: AC on, High V supply, Low V supply. Power up the KPA1500 by pressing the on switch on the lower right hand side of the KPA1500 front panel.\n\nknitr::include_graphics(\"include/img/kpa1500-power-switch.png\")\n\n\n\n\nKPA1500 Power Switch\n\n\n\n\n\nLog-in to the computer\n\nPower up the PC by pressing the power button on the front panel.\nLog-in using the appropriate password\n\nThe IC-7610/NARC1 is connected via USB2 to the NARC1 PC. Open your logging program of choice. NARC has licenses for N1MM and N3FJP’s Amateur Contact Log.\nTo operate digital modes (e.g., FT8/FT4, JS8Call, fldigi), open those programs. See instructions for operating these modes in separate documents.\n\n\n\nBasic controls\n\nAudio levels for the two VFOs are controlledd via separate knobs on the left side of the front panel.\n\n\nknitr::include_graphics(\"include/img/ic-7610-af.png\")\n\n\n\n\n\nYou may switch operating bands in one of two ways:\n\nButtons located on the right side of the front panel\nPressing the frequency on the touch screen.\n\n\n\nknitr::include_graphics(\"include/img/ic-7610-chg-band.png\")\n\n\n\n\n\nSwitch operating modes by pressing the mode button on the touch panel.\n\n\nknitr::include_graphics(\"include/img/ic-7610-chg-mode.png\")\n\n\n\n\nThis opens a window where you can choose the mode of operation. - Hit the arrow button to close the window and save your choice.\n\nTurn digital noise reduction on or off by pressing the NR button on the left side of the front panel. When NR is on, the NR button will be illuminated.\n\nTo adjust the amount of noise reduction, press and hold the NR button to open a window on the upper right corner of the touch panel display.\nTurn the MULTI key to adjust the level of noise reduction.\nClose the NR window by pressing the MULTI key or by pressing the NR button.\n\nAdjust preamplifier (P.AMP) settings, automatic gain control (AGC), Intercept Point (IP+), VOX, and compression (COMP) settings by pressing the corresponding button on the left side of the touch/display screen.\n\n\nknitr::include_graphics(\"include/img/ic-7610-left-touch-buttons.png\")\n\n\n\n\n\nAdjust touch/display screen settings via the MENU1/MENU2 buttons at the bottom of the touch/display screen.\n\n\nknitr::include_graphics(\"include/img/ic-7610-menu-touch-buttons.png\")\n\n\n\n\n\nSelect receive filter settings via the FILTER button on the right side of the front panel, below the TWIN PBT knob.\n\n\nknitr::include_graphics(\"include/img/ic-7610-filter.png\")\n\n\n\n\n\nSet RF power by pressing the MULTI button to open a window on the display/touch screen. Press the RF POWER panel to select it, and adjust the output power by turning the MULTI knob.\n\n\nknitr::include_graphics(\"include/img/ic-7610-multi.png\")"
+  },
+  {
+    "objectID": "wifi-internet.html#background",
+    "href": "wifi-internet.html#background",
+    "title": "Wifi & internet",
+    "section": "Background",
+    "text": "Background\nThanks to the work of Mark K0LO and Eric Brooks N3EB (SK), the clubhouse got internet service in the fall of 2020."
+  },
+  {
+    "objectID": "wifi-internet.html#connecting-to-wifi",
+    "href": "wifi-internet.html#connecting-to-wifi",
+    "title": "Wifi & internet",
+    "section": "Connecting to wifi",
+    "text": "Connecting to wifi\nThe wifi is for club members only. The ssid is NARC Members.\nAsk Mike N3LI, Rick W3TM, or Eric W3EDP for the password."
+  },
+  {
+    "objectID": "wifi-internet.html#connecting-to-the-internet-via-an-ethernet-cable",
+    "href": "wifi-internet.html#connecting-to-the-internet-via-an-ethernet-cable",
+    "title": "Wifi & internet",
+    "section": "Connecting to the internet via an Ethernet cable",
+    "text": "Connecting to the internet via an Ethernet cable\nThe TP Link bridge/router has ethernet ports you may plug in to.\nNote that NARC1, NARC2, and NARC3 use ports 1, 3, and 5. Please leave these connections alone. The system runs a DHCP server, so you should be able to plug in your computer and acquire an IP address after a few moments."
+  },
+  {
+    "objectID": "packet_aprs.html#packet-station",
+    "href": "packet_aprs.html#packet-station",
+    "title": "Packet/APRS",
+    "section": "Packet station",
+    "text": "Packet station\nThe packet station is located along the North wall of the shack near the HF antenna feedlines.\n\nIcom IC-2710 Dual Band Transceiver set to 145.030 MHz\nHP Computer\nAstron power supply\n\n\n\n\nIC-2710 Packet Transceiver"
+  },
+  {
+    "objectID": "packet_aprs.html#aprs-station",
+    "href": "packet_aprs.html#aprs-station",
+    "title": "Packet/APRS",
+    "section": "APRS station",
+    "text": "APRS station\nThe station and TNC are located in the cabinet near the back door of the shack.\nThe W3YA-1 digipeater operates on 144.390 MHz."
+  }
+]
