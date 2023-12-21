@@ -13,9 +13,19 @@ The ssid is `NARC Members`.
 
 Ask Mike N3LI, Rick W3TM, or Eric W3EDP for the password.
 
+![The Ubiquiti wifi router](include/img/wifi-router.jpeg)
+
 ## Connecting to the internet via an Ethernet cable
 
 The TP Link bridge/router has ethernet ports you may plug in to.
+
+::: {.callout-note}
+
+TODO: Add a photo of the bridge/router here.
+
+TODO: We might also consider having some ethernet cables connected to the bridge/router.
+
+:::
 
 Note that NARC1, NARC2, and NARC3 use ports 1, 3, and 5. 
 Please leave these connections alone.

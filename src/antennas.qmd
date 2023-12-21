@@ -98,6 +98,8 @@ The club hopes to install the replacement in Fall 2023.
 
 ## Antenna use
 
+![Antenna connections in clubhouse interior](include/img/antenna-connections.jpeg)
+
 - Confirm that it is impossible for your transceiver to transmit while you are connecting your transceiver's (color-tagged) feedline to one of the antenna connectors.
 - Switch antennas manually by connecting your radio feedline from array of antenna connectors on the north wall.
 - When you leave the shack, disconnect the transceiver feedline from the antenna you were using.

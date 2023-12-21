@@ -1,5 +1,5 @@
 ---
-title: "Packet/APRS"
+title: "NARC-4 Packet/APRS"
 ---
 
 ## Packet station
@@ -17,7 +17,4 @@ The packet station is located along the North wall of the shack near the HF ante
 The station and TNC are located in the cabinet near the back door of the shack.
 
 The [W3YA-1 digipeater](https://aprs.fi/#!mt=roadmap&z=13&call=a%2FW3YA-1&timerange=3600&tail=3600) operates on 144.390 MHz.
-
-
-
 

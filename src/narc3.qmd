@@ -17,10 +17,17 @@ It is located to the right of NARC-2, and immediately to the left of the [packet
 
 ### Software summary
 
-```{r}
-#| include: false
-library(knitr)
-```
+- Windows 10
+- Digital modes
+  - WSTJ-X
+  - JS8Call
+  - fldigi suite
+  - VarAC
+- Logging
+  - N1MM
+  - Amateur Contact Log (ACLog) by N3FJP
+
+<!-- The full operating guide follows. It is a child document -->
 
 ```{r, results='asis'}
 a <- knitr::knit_child('IC-718.qmd', quiet=T)

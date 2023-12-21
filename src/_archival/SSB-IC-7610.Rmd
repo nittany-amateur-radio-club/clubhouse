@@ -1,8 +1,5 @@
 ---
 title: "SSB Operations on IC-7610"
-author: "Rick Gilmore K3ROG"
-date: "`r Sys.time()`"
-output: html_document
 ---
 
 ### SSB on IC-7610/NARC1
@@ -11,11 +8,10 @@ output: html_document
 
 You do not need to use the PC to operate phone, but you may want to use the PC for logging.
 
-1. Power up the NARC2 PC by pressing the power button on the front panel.
+1. Power up the NARC-1 PC by pressing the power button on the front panel.
 
 2. Log-in using the appropriate password
 
-The K3S/NARC2 is connected via USB2 to the NARC2 PC.
 Open your logging program of choice. 
 NARC has licenses for N1MM and N3FJP's Amateur Contact Log.
 
@@ -34,7 +30,7 @@ You may need to download the specific log for the contest you want to work.
 To change the mode, press the mode indicator on the touch screen to open a window to toggle the mode (USB/LSB).
 
 ```{r}
-knitr::include_graphics("img/ic-7610-chg-mode.png")
+knitr::include_graphics("include/img/ic-7610-chg-mode.png")
 ```
 
 Remember, the convention is to use LSB below 10 MHz except for 60m.
@@ -44,7 +40,7 @@ Remember, the convention is to use LSB below 10 MHz except for 60m.
 You may adjust the filter settings by pressing and holding the filter button on the right side of the rig control panel. Press and hold the FILTER button on to save and apply the filter settings.
 
 ```{r}
-knitr::include_graphics("img/ic-7610-filter.png")
+knitr::include_graphics("include/img/ic-7610-filter.png")
 ```
 
 2. Check audio output levels.
@@ -52,7 +48,7 @@ knitr::include_graphics("img/ic-7610-filter.png")
 3. Set desired power output using MULTI knob.
 
 ```{r}
-knitr::include_graphics("img/ic-7610-multi.png")
+knitr::include_graphics("include/img/ic-7610-multi.png")
 ```
 
 Press and hold the MULTI button to open a window on the touch/display screen.

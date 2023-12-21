@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Rick Gilmore">
-<meta name="dcterms.date" content="2023-11-23">
+<meta name="dcterms.date" content="2023-12-20">
 
 <title>Nittany ARC Station Guide</title>
 <style>
@@ -110,36 +110,68 @@ ul.task-list li input[type="checkbox"] {
   <a href="./logistics.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Logistics</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./antennas.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Antennas</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="./stations.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Stations</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./narc1.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">NARC-1</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./narc2.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">NARC-2</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./narc3.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">NARC-3</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./packet_aprs.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">NARC-4 Packet/APRS</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./kenwood-D710.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Kenwood D-710</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./remote-operations.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Remote operations</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
+ <span class="menu-text">Other resources</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./antennas.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Antennas</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./wifi-internet.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Wifi &amp; internet</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./packet_aprs.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Packet/APRS</span></a>
-  </div>
-</li>
+      </ul>
+  </li>
     </ul>
     </div>
 </nav>
@@ -151,7 +183,6 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#about" id="toc-about" class="nav-link active" data-scroll-target="#about">About</a></li>
-  <li><a href="#stations" id="toc-stations" class="nav-link" data-scroll-target="#stations">Stations</a></li>
   </ul>
 </nav>
     </div>
@@ -160,7 +191,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Nittany ARC Station Guide</h1>
+<h1 class="title">Preface</h1>
 </div>
 
 
@@ -177,7 +208,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">November 23, 2023</p>
+      <p class="date">December 20, 2023</p>
     </div>
   </div>
   
@@ -187,16 +218,13 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
+
 <section id="about" class="level2">
-<h2 class="anchored" data-anchor-id="about">About</h2>
+<h2 class="anchored" data-anchor-id="about">About</h2><p><img src="include/img/60-ft-tower-west.jpg" title="Nittany ARC Station Guide" class="quarto-cover-image img-fluid"></p>
 <p>Welcome to the Nittany Amateur Radio Club’s (<a href="https://nittany-arc.org">NARC</a>) station guide. The radio station is one of the best benefits of joining the club.</p>
 <p>Rick Gilmore, W3TM manages the station with the help of Mike Coslo N3LI, Eric Prescott W3EDP, and Woody Brem K3YV. Mark Wharton K0LO provides computer networking support.</p>
 <p>This site provides information about how to gain access to the mountaintop station and how to use the equipment.</p>
 <p>The mountaintop station has been a focal point of activity for the club. We operated Field Day 2023 from the station, and we have held W3M special event operations, Pennsylvania QSO Party activities, and other contesting events.</p>
-</section>
-<section id="stations" class="level2">
-<h2 class="anchored" data-anchor-id="stations">Stations</h2>
-<p>The club maintains two full power HF + 6m stations (<a href="./narc1.html">NARC-1</a> and <a href="./narc2.html">NARC-2</a>), plus a 100 W HF + 6m station (<a href="./narc3.html">NARC-3</a>). In addition, the mountaintop radio station has a dual band VHF/UHF FM radio for monitoring the 146.86 MHz W3YA and 146.76 MHz W3GA repeaters. We have a <a href="./packet_aprs.html#packet-station">packet station</a> and bulletin board operating on 145.030 MHz, and the club supports a full-time <a href="./packet_aprs.html#aprs-station">APRS digipeater</a> active on 144.390 MHz as W3YA-1.</p>
 
 
 </section>

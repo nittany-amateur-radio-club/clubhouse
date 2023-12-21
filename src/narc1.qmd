@@ -7,6 +7,8 @@ format: html
 
 NARC-1 is the first HF station on your left as you enter the station.
 
+![NARC-1 operating position](include/img/narc-1-operating-position.jpeg)
+
 ### Equipment summary
 
 - Icom IC-7610 (HF + 6m) transceiver
@@ -14,29 +16,31 @@ NARC-1 is the first HF station on your left as you enter the station.
 - Icom SM-50 desk mic
 - Clipper PTT footswitch
 - Heil Pro-7 headset
-- Nifty mini-manual and other manuals are located in the drawer under the radio.
+- Nifty mini-manual and other manuals
+  - Check the right side of the operating position and the drawer under the radio.
 
 - Dell PC, dual monitor set-up
 
-- Elecraft KPA1500 amplifier
+- Elecraft [KPA1500](KPA1500.qmd) amplifier
   - Elecraft power supply
  
 ### Software summary
 
 - Windows 10
 - Digital modes
-  - WSTJ-X
-  - JS8Call
-  - fldigi suite
-  - VarAC
+  - WSTJ-X 2.5.4
+  - JTAlert 2.50.0
+  - JS8Call 2.2.2
+  - [fldigi suite](fldigi-IC-7610.qmd)
+  - Winlink Express 1.7.11.0
+      - VARA HF 4.7.7 (registered to W3YA)
+  - VarAC 6.6.13
+  - Yoniq (SSTV)
+- Remote control
+  - Win4Icom
 - Logging
   - N1MM
-  - Amateur Contact Log (ACLog) by N3FJP
-
-```{r}
-#| include: false
-library(knitr)
-```
+  - Amateur Contact Log (ACLog) 7.0.9 by N3FJP (registered to W3YA)
 
 ```{r, results='asis', echo=FALSE}
 a <- knitr::knit_child('IC-7610.qmd', quiet=T)

@@ -5,17 +5,24 @@ project:
 book:
   title: "Nittany ARC Station Guide"
   author: "Rick Gilmore"
-  date: "2023-11-23"
+  date: "2023-12-20"
+  output-file: "NARC-Clubhouse-Guide"
+  cover-image: "include/img/60-ft-tower-west.jpg"
   chapters:
     - index.qmd
     - logistics.qmd
-    - antennas.qmd
-    - narc1.qmd
-    - narc2.qmd
-    - narc3.qmd
-    - "wifi-internet.qmd"
-    - packet_aprs.qmd
-
+    - part: stations.qmd
+      chapters:
+        - narc1.qmd
+        - narc2.qmd
+        - narc3.qmd    
+        - packet_aprs.qmd
+        - kenwood-D710.qmd
+        - remote-operations.qmd
+    - part: "Other resources"
+      chapters:
+        - antennas.qmd
+        - wifi-internet.qmd
 format:
   html:
     theme: cosmo

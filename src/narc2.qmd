@@ -35,7 +35,10 @@ NARC 2 is the second HF station on your left as you enter the station.
 library(knitr)
 ```
 
-```{r, results='asis'}
+```{r}
+#| echo: false
+#| results: asis
+#| 
 a <- knitr::knit_child('flex-6400M.qmd', quiet=T)
 cat(a, sep="\n")
 ```

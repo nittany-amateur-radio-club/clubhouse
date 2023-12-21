@@ -1,0 +1,24 @@
+---
+title: "Kenwood D-710"
+---
+
+## Overview
+
+The Kenwood D-710 is available for members who want to monitor the 146.86 and 146.76 repeaters while they are at the clubhouse.
+
+## Operating instructions
+
+The radio is located along the north wall, above the NARC-4 packet station.
+
+::: {.callout-note}
+
+TODO: Insert photo here
+
+:::
+
+1. Press the power button on upper right corner of the radio.
+
+2. Adjust the audio gain for either the left or right VFO via the small "inner" knobs.
+
+3. When you leave the shack, please power-down the rig.
+
