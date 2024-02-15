@@ -380,6 +380,19 @@ Warning
 <li>Power up the Elecraft KPA1500 amplifier</li>
 </ol>
 <p>The IC-7610/NARC1 is connected to the Elecraft <a href="KPA1500.qmd">KPA1500</a> amplifier. The power supply for the KPA1500 is under the desk on a small footstool. Check that the KPA1500 power supply is on. If necessary, power-up the power supply by hitting the power switch on the upper rear left side of the power supply. When the amplifier power switch is on, you will see 3 green lights: AC on, High V supply, Low V supply. Power up the KPA1500 by pressing the <code>on</code> switch on the lower right hand side of the KPA1500 front panel.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>If you are not operating with more than 100 W or do not need the KPA1500’s built in antenna tuner, then leave the KPA1500 powered off.</p>
+</div>
+</div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="include/img/kpa1500-power-switch.png" class="img-fluid figure-img"></p>
@@ -394,7 +407,7 @@ Warning
 <li><p>Log-in using the appropriate password</p></li>
 </ol>
 <p>The IC-7610/NARC1 is connected via USB2 to the NARC1 PC. Open your logging program of choice. NARC has licenses for N1MM and N3FJP’s Amateur Contact Log.</p>
-<p>To operate digital modes (e.g., FT8/FT4, JS8Call, fldigi), open those programs. See instructions for operating these modes in separate documents.</p>
+<p>To operate digital modes (e.g., FT8/FT4, JS8Call, fldigi), open those programs. See instructions for operating these modes in separate sections below.</p>
 </section>
 </section>
 <section id="basic-controls" class="level3">
@@ -476,7 +489,7 @@ Warning
 </section>
 <section id="settings" class="level3">
 <h3 class="anchored" data-anchor-id="settings">Settings</h3>
-<p>The rig and computer settings are tested on a regular basis, approximately monthly.</p>
+<p>The rig and computer settings are tested on a regular basis, approximately monthly. If you would like to help W3TM test the rigs or improve and update the documentation, let him know.</p>
 <div class="callout callout-style-default callout-warning callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -531,7 +544,11 @@ Warning
 </section>
 <section id="amateur-contact-log-n3fjp" class="level4">
 <h4 class="anchored" data-anchor-id="amateur-contact-log-n3fjp">Amateur Contact Log (N3FJP)</h4>
-<p>You may need to download the specific log for the contest you want to work.</p>
+<p>You may need to download the specific log for the contest you want to work. The club has paid N3FJP for a license under the W3YA callsign. Ask W3TM for information about the license codes for contests that are are not already installed.</p>
+<ol type="1">
+<li>Open Amateur Contact Log (most recent version installed is 7.0.9)</li>
+<li>Confirm that the program tracks frequency &amp; mode.</li>
+</ol>
 </section>
 </section>
 <section id="on-the-ic-7610" class="level3">
@@ -588,7 +605,7 @@ Warning
 </ol>
 <p>It’s not essential to confirm the settings each time you start up, but doing so will make sure that you are able to operate without difficulty.</p>
 <p>In flrig, open the Config menu and select Setup &gt; Transceiver. This opens a separate window.</p>
-<p>Rig: IC-7610<br> Ser Port: COM3<br> Baud: 19200<br> (Stop bits:) 1<br> PTT via CAT checked<br></p>
+<p>Rig: IC-7610<br> Ser Port: COM3<br> Baud: 38400<br> (Stop bits:) 1<br> PTT via CAT checked<br></p>
 <p>CI-V adr:0x98 <br></p>
 <p>You may now close the Configuration window by pressing the CLOSE button or close window (X) button.</p>
 <ol start="3" type="1">
@@ -711,33 +728,33 @@ Note
 <li><p>Open Settings from the File menu</p></li>
 </ol>
 <p><em>General tab:</em></p>
-<p>Set my Call to your personal callsign unless you have permission to use the club callsign (W3YA). Set any Display or Behavior settings per your personal preferences.</p>
+<p>Set My Call to your personal callsign unless you have permission to use the club callsign (W3YA). Set any Display or Behavior settings per your personal preferences.</p>
 <p><em>Radio tab:</em></p>
 <p>Change these at your own risk.</p>
-<p>Rig: Icom IC-7610<br> CAT Control: COM3<br> Baud Rate: 38400<br> Data Bits: 8 bits<br> Stop Bits: none<br> Handshake: none<br> Force Control Lines: unset<br></p>
-<p>PTT method: CAT (port should be COM3)<br> Mode: Data/pkt<br> Split operation: Rig or Fake It<br></p>
+<p>Rig: <code>Icom IC-7610</code><br> CAT Control: <code>COM3</code><br> Baud Rate: <code>38400</code><br> Data Bits: <code>8 bits</code><br> Stop Bits: <code>none</code><br> Handshake: <code>none</code><br> Force Control Lines: unset<br></p>
+<p>PTT method: <code>CAT</code> (port should be COM3)<br> Mode: <code>Data/pkt</code><br> Split operation: <code>Rig</code> or <code>Fake It</code><br></p>
 <p>You may want to check/confirm that rig control is working by pushing the Test CAT button in this panel. If the button turns green, then the rig and computer are communicating.</p>
-<p>You may also want to check that PTT is working by pressing the Test PTT button. Make sure you have adjusted the rig’s power output to a low level (1-5 W) before testing. On the IC-7610, press the MULTI button, touch the RF Power panel on the touch screen, and turn the MULTI button to set desired output power.</p>
+<p>You may also want to check that PTT is working. Adjusted the rig’s power output to a low level (1-5 W) before testing. On the IC-7610, press the MULTI button, touch the RF Power panel on the touch screen, and turn the MULTI button to set desired output power.</p>
+<p>Press the <code>Test PTT</code> button and observe whether the transmitter keys up. If so, all is well.</p>
 <p><em>Audio tab:</em></p>
-<p>Input: USB Audio Codec Output: USB Audio Codec</p>
+<p>Input: <code>USB Audio Codec</code> Output: <code>USB Audio Codec</code></p>
 <p><em>Reporting tab</em></p>
 <p>You may want to set the Op Call to your own callsign.</p>
 <p><em>Advanced tab:</em></p>
-<p>Check or uncheck Special Operating Activity per situation, for example ARRL Field Day or the NA VHF Contest.</p>
-<p>You may now close the Settings window by pressing the OK button.</p>
-<p>Switch to the desired mode (e.g., FT8) from the Mode menu. Select the desired operating band and default frequency from the dropdown menu on the lower left side of the main WSJT-X application panel.</p>
+<p>Check or uncheck <code>Special Operating Activity</code> per situation, for example ARRL Field Day or the NA VHF Contest.</p>
+<p>You may now close the <code>Settings</code> window by pressing the OK button.</p>
+<p>Switch to the desired mode (e.g., FT8) from the <code>Mode</code> menu. Select the desired operating band and default frequency from the dropdown menu on the lower left side of the main WSJT-X application panel.</p>
 <ol start="3" type="1">
 <li>Check computer clock accuracy</li>
 </ol>
 <p>Open a browser; visit https://time.is</p>
 <p>If your time synch is within .5s of the correct time, you may proceed.</p>
-<p>If you have a cellular hotspot, you may wish to connect it to the hub. Power the hub, wait for the computers to establish an internet connection, and allow the Meinberg time server application to update the time.</p>
-<p>If you are decoding signals, then all is well.</p>
+<p>If you are decoding signals in the waterfall, then all is well.</p>
 </section>
 <section id="on-the-ic-7610-2" class="level4">
 <h4 class="anchored" data-anchor-id="on-the-ic-7610-2">On the IC-7610</h4>
 <ol type="1">
-<li>Confirm rig is in USB Data 2 (USB-D2) mode.</li>
+<li>Confirm rig is in USB Data 2 (<code>USB-D2</code>) mode.</li>
 </ol>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
@@ -766,25 +783,38 @@ Note
 </figure>
 </div>
 <p>The following settings can be changed via buttons on the left side of the touch/display screen.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The following settings let the software do the heavy-lifting.</p>
+</div>
+</div>
 <ul>
-<li>Preamp (P.AMP) off</li>
+<li>Preamp (P.AMP) <code>off</code></li>
 </ul>
 <p>Press the P.AMP button to cycle through the settings (OFF, P.AMP 1, P.AMP 2)</p>
 <ul>
-<li>ATT off</li>
+<li>Attenuator (ATT): <code>off</code></li>
 </ul>
 <p>Press the ATT button to cycle through the attenuator settings (OFF, 6 dB, 12 dB, 18 dB)</p>
 <ul>
-<li>IP+ off</li>
+<li>IP+: <code>off</code></li>
 </ul>
 <p>Press the IP+ button to select ON or OFF</p>
 <ul>
-<li>Turn AGC off</li>
+<li>Automatic Gain Control (AGC): <code>off</code></li>
 </ul>
 <p>Press and hold the AGC button on the display/touch screen. This opens a panel. Under the SSB column, select the SLOW setting. Adjust the AGC level downward until the indicator says OFF. Press the arrow/return button on the display/touch screen to enter the setting.</p>
 <ul>
-<li><p>VOX off</p></li>
-<li><p>Noise reduction (NR) off</p></li>
+<li><p>VOX: <code>off</code></p></li>
+<li><p>Noise reduction (NR): <code>off</code></p></li>
 </ul>
 <p>Press the NR button on the left side of the front panel to turn off the illuminator.</p>
 <ul>
@@ -801,7 +831,7 @@ Note
 </figure>
 </div>
 <p>Press and hold the MULTI button to open a window on the touch/display screen. Press the RF POWER panel and rotate the MULTI button to set RF power.</p>
-<p>Remember, WSJT-X is a weak signal mode. Less than 50 W is plenty, especially if you are using one of our antennas that has gain.</p>
+<p>Remember, WSJT-X is a weak signal mode. Less than 50 W is plenty, especially if you are using one of our “gain” antennas (Yagis).</p>
 </section>
 <section id="on-kpa1500-2" class="level4">
 <h4 class="anchored" data-anchor-id="on-kpa1500-2">On KPA1500</h4>
@@ -810,9 +840,9 @@ Note
 <section id="operating-hints" class="level4">
 <h4 class="anchored" data-anchor-id="operating-hints">Operating hints</h4>
 <ol type="1">
-<li>Make sure that your audio in level is not too high.</li>
+<li>Make sure that your audio input level is not too high.</li>
 </ol>
-<p>There are several ways to adjust this: - Adjust the RF/SQL button on the rig</p>
+<p>There are several ways to adjust this: - Adjust the RF/SQL button on the rig - Adjust the mic levels on the PC (open the Audio control panel)</p>
 </section>
 </section>
 </section>

@@ -23,7 +23,7 @@ This opens a separate window.
 
 Rig: IC-7610</br>
 Ser Port: COM3</br>
-Baud: 19200</br>
+Baud: 38400</br>
 (Stop bits:) 1</br>
 PTT via CAT checked</br>
 

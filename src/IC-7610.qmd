@@ -64,6 +64,12 @@ Check that the KPA1500 power supply is on.
 If necessary, power-up the power supply by hitting the power switch on the upper rear left side of the power supply. When the amplifier power switch is on, you will see 3 green lights: AC on, High V supply, Low V supply.
 Power up the KPA1500 by pressing the `on` switch on the lower right hand side of the KPA1500 front panel.
 
+::: {.callout-note}
+
+If you are not operating with more than 100 W or do not need the KPA1500's built in antenna tuner, then leave the KPA1500 powered off.
+
+:::
+
 ![KPA1500 Power Switch](include/img/kpa1500-power-switch.png)
 
 #### Log-in to the computer
@@ -76,7 +82,7 @@ The IC-7610/NARC1 is connected via USB2 to the NARC1 PC.
 Open your logging program of choice. NARC has licenses for N1MM and N3FJP's Amateur Contact Log.
 
 To operate digital modes (e.g., FT8/FT4, JS8Call, fldigi), open those programs. 
-See instructions for operating these modes in separate documents.
+See instructions for operating these modes in separate sections below.
 
 ### Basic controls
 
@@ -121,7 +127,8 @@ When NR is on, the NR button will be illuminated.
 
 ### Settings
 
-The rig and computer settings are tested on a regular basis, approximately monthly.
+The rig and computer settings are tested on a regular basis, approximately monthly. 
+If you would like to help W3TM test the rigs or improve and update the documentation, let him know.
 
 ::: {.callout-warning}
 
@@ -163,6 +170,11 @@ NARC has licenses for N1MM and N3FJP's Amateur Contact Log.
 #### Amateur Contact Log (N3FJP)
 
 You may need to download the specific log for the contest you want to work.
+The club has paid N3FJP for a license under the W3YA callsign.
+Ask W3TM for information about the license codes for contests that are are not already installed.
+
+1. Open Amateur Contact Log (most recent version installed is 7.0.9)
+2. Confirm that the program tracks frequency & mode.
 
 ### On the IC-7610
 

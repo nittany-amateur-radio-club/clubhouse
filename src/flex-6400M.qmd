@@ -60,13 +60,14 @@ If necessary, power-up the power supply by hitting the power switch on the upper
 Power up the KPA1500 by pressing the `on` switch on the lower right hand side of the KPA1500 front panel.
 
 ![KPA1500 Power Switch](include/img/kpa1500-power-switch.png)
+
 #### Log-in to the computer
 
 1. Power up the PC by pressing the power button on the right rear of the computer/display.
 
 2. Log-in using the appropriate password.
 
-The Flex 6400 is connected via USB to the NARC-2 PC.
+The Flex 6400M is connected via USB to the NARC-2 PC.
 
 Open your logging program of choice. NARC has licenses for N1MM and N3FJP's Amateur Contact Log.
 

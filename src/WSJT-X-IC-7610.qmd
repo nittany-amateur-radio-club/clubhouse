@@ -22,36 +22,39 @@ b. Open Settings from the File menu
 
 *General tab:*
 
-Set my Call to your personal callsign unless you have permission to use the club callsign (W3YA). 
+Set My Call to your personal callsign unless you have permission to use the club callsign (W3YA). 
 Set any Display or Behavior settings per your personal preferences.
 
 *Radio tab:*
 
 Change these at your own risk.
 
-Rig: Icom IC-7610</br>
-CAT Control: COM3</br>
-Baud Rate: 38400</br>
-Data Bits: 8 bits</br>
-Stop Bits: none</br>
-Handshake: none</br>
+Rig: `Icom IC-7610`</br>
+CAT Control: `COM3`</br>
+Baud Rate: `38400`</br>
+Data Bits: `8 bits`</br>
+Stop Bits: `none`</br>
+Handshake: `none`</br>
 Force Control Lines: unset</br>
 
-PTT method: CAT (port should be COM3)</br>
-Mode: Data/pkt</br>
-Split operation: Rig or Fake It</br>
+PTT method: `CAT` (port should be COM3)</br>
+Mode: `Data/pkt`</br>
+Split operation: `Rig` or `Fake It`</br>
 
 You may want to check/confirm that rig control is working by pushing the Test CAT button in this panel. 
 If the button turns green, then the rig and computer are communicating.
 
-You may also want to check that PTT is working by pressing the Test PTT button. 
-Make sure you have adjusted the rig’s power output to a low level (1-5 W) before testing.
+You may also want to check that PTT is working.
+Adjusted the rig’s power output to a low level (1-5 W) before testing.
 On the IC-7610, press the MULTI button, touch the RF Power panel on the touch screen, and turn the MULTI button to set desired output power.
+
+Press the `Test PTT` button and observe whether the transmitter keys up.
+If so, all is well.
 
 *Audio tab:*
 
-Input: USB Audio Codec
-Output: USB Audio Codec
+Input: `USB Audio Codec`
+Output: `USB Audio Codec`
 
 *Reporting tab*
 
@@ -59,11 +62,11 @@ You may want to set the Op Call to your own callsign.
 
 *Advanced tab:*
 
-Check or uncheck Special Operating Activity per situation, for example ARRL Field Day or the NA VHF Contest.
+Check or uncheck `Special Operating Activity` per situation, for example ARRL Field Day or the NA VHF Contest.
 
-You may now close the Settings window by pressing the OK button.
+You may now close the `Settings` window by pressing the OK button.
 
-Switch to the desired mode (e.g., FT8) from the Mode menu.
+Switch to the desired mode (e.g., FT8) from the `Mode` menu.
 Select the desired operating band and default frequency from the dropdown menu on the lower left side of the main WSJT-X application panel.
 
 3. Check computer clock accuracy
@@ -72,14 +75,11 @@ Open a browser; visit https://time.is
 
 If your time synch is within .5s of the correct time, you may proceed.
 
-If you have a cellular hotspot, you may wish to connect it to the hub. 
-Power the hub, wait for the computers to establish an internet connection, and allow the Meinberg time server application to update the time.
-
-If you are decoding signals, then all is well.
+If you are decoding signals in the waterfall, then all is well.
 
 #### On the IC-7610
 
-1. Confirm rig is in USB Data 2 (USB-D2) mode.
+1. Confirm rig is in USB Data 2 (`USB-D2`) mode.
 
 ![IC-7610 mode select button](include/img/ic-7610-chg-mode.png)
 
@@ -100,19 +100,25 @@ You may adjust the filter settings by pressing and holding the filter button on 
 
 The following settings can be changed via buttons on the left side of the touch/display screen.
 
-- Preamp (P.AMP) off
+::: {.callout-note}
+
+The following settings let the software do the heavy-lifting.
+
+:::
+
+- Preamp (P.AMP) `off`
 
 Press the P.AMP button to cycle through the settings (OFF, P.AMP 1, P.AMP 2)
 
-- ATT off
+- Attenuator (ATT): `off`
 
 Press the ATT button to cycle through the attenuator settings (OFF, 6 dB, 12 dB, 18 dB)
 
-- IP+ off
+- IP+: `off`
 
 Press the IP+ button to select ON or OFF
 
-- Turn AGC off
+- Automatic Gain Control (AGC): `off`
 
 Press and hold the AGC button on the display/touch screen.
 This opens a panel.
@@ -120,9 +126,9 @@ Under the SSB column, select the SLOW setting.
 Adjust the AGC level downward until the indicator says OFF.
 Press the arrow/return button on the display/touch screen to enter the setting.
 
-- VOX off
+- VOX: `off`
 
-- Noise reduction (NR) off
+- Noise reduction (NR): `off`
 
 Press the NR button on the left side of the front panel to turn off the illuminator.
 
@@ -138,7 +144,7 @@ Press and hold the MULTI button to open a window on the touch/display screen.
 Press the RF POWER panel and rotate the MULTI button to set RF power.
 
 Remember, WSJT-X is a weak signal mode. 
-Less than 50 W is plenty, especially if you are using one of our antennas that has gain.
+Less than 50 W is plenty, especially if you are using one of our "gain" antennas (Yagis).
 
 #### On KPA1500
 
@@ -147,7 +153,8 @@ These modes involve high duty cycles and put a lot of stress on the amplifier.
 
 #### Operating hints
 
-1. Make sure that your audio in level is not too high.
+1. Make sure that your audio input level is not too high.
 
 There are several ways to adjust this:
     - Adjust the RF/SQL button on the rig
+    - Adjust the mic levels on the PC (open the Audio control panel)
