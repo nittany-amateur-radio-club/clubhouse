@@ -17,6 +17,36 @@ NARC 2 is the second HF station on your left as you enter the station.
 
 - Elecraft KPA1500 amplifier
   - Elecraft power supply
+  
+### Connection scheme
+
+```{mermaid}
+flowchart TD
+  A[Flex 6400M] ---|Coax-Ant1|B[KPA-1500 Ant 1]
+  B ---|50A PowerPole|T[Elecraft Power Supply]
+  T ---|220V AC|U(220V outlet)
+  J ---|120V AC|V(110V outlet)
+  A ---|Cat 6|L
+  A ---|Tx1 RCA Rem|B
+  A --> N(Clipper footswitch)
+  A ---|RCA|Q(Relay)
+  Q --- R(Kasa Switch)
+  R --- J
+  A ---|USB|C[NARC2 PC]
+  C ---|USB|F(Keyboard)
+  C ---|Bluetooth|G(Mouse)
+  C ---|HDMI|H(Monitor)
+  C ---|CAT 6|L(Network Switch)
+  C ---|USB|P(FlexControl Knob)
+  J ---|AC Power|C
+  E ---|120V AC|I(Kasa Switch)
+  I ---|AC Power|J[Surge Protector]
+  I ---|Wifi|K(NARC wifi)
+  A ---|Power Cable|E[Astron RS-35A]
+  B ---|Coax Ant1|D(Antenna Connectors)
+  H ---|AC Power|J
+```
+   
  
 ### Software summary
 

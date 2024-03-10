@@ -61,6 +61,9 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script src="site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
 
 </head>
@@ -215,6 +218,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a>
   <ul class="collapse">
   <li><a href="#equipment-summary" id="toc-equipment-summary" class="nav-link" data-scroll-target="#equipment-summary">Equipment summary</a></li>
+  <li><a href="#connection-scheme" id="toc-connection-scheme" class="nav-link" data-scroll-target="#connection-scheme">Connection scheme</a></li>
   <li><a href="#software-summary" id="toc-software-summary" class="nav-link" data-scroll-target="#software-summary">Software summary</a></li>
   </ul></li>
   <li><a href="#ic-7610-operating-guide" id="toc-ic-7610-operating-guide" class="nav-link" data-scroll-target="#ic-7610-operating-guide">IC-7610 operating guide</a>
@@ -287,6 +291,36 @@ ul.task-list li input[type="checkbox"] {
 <li>Elecraft power supply</li>
 </ul></li>
 </ul>
+</section>
+<section id="connection-scheme" class="level3">
+<h3 class="anchored" data-anchor-id="connection-scheme">Connection scheme</h3>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<div>
+<pre class="mermaid mermaid-js">flowchart TD
+  A[IC-7610] ---|Coax-Ant1|B[KPA-1500 Ant 1]
+  A ---|RCA ALC|B
+  A ---|RCA Send|B
+  A --&gt; M(Morse Paddles)
+  A --&gt; N(Clipper footswitch)
+  A ---|USB|C[NARC1 PC]
+  C ---|USB|F(Keyboard)
+  C ---|Bluetooth|G(Mouse)
+  C ---|HDMI|H(Monitor)
+  C ---|CAT 6|L(Network Switch)
+  J ---|AC Power| C
+  E ---|120V AC|I(Kasa Switch)
+  I ---|AC Power|J(Surge Protector)
+  I ---|Wifi|K(NARC wifi)
+  A ---|Power Cable|E(Astron RS-35A)
+  B ---|Coax Ant1|D(Antenna Connectors)
+  H ---|AC Power|J
+</pre>
+</div>
+</div>
+</div>
+</div>
 </section>
 <section id="software-summary" class="level3">
 <h3 class="anchored" data-anchor-id="software-summary">Software summary</h3>

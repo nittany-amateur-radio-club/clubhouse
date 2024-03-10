@@ -23,6 +23,29 @@ NARC-1 is the first HF station on your left as you enter the station.
 
 - Elecraft [KPA1500](KPA1500.qmd) amplifier
   - Elecraft power supply
+  
+### Connection scheme
+
+```{mermaid}
+flowchart TD
+  A[IC-7610] ---|Coax-Ant1|B[KPA-1500 Ant 1]
+  A ---|RCA ALC|B
+  A ---|RCA Send|B
+  A --> M(Morse Paddles)
+  A --> N(Clipper footswitch)
+  A ---|USB|C[NARC1 PC]
+  C ---|USB|F(Keyboard)
+  C ---|Bluetooth|G(Mouse)
+  C ---|HDMI|H(Monitor)
+  C ---|CAT 6|L(Network Switch)
+  J ---|AC Power| C
+  E ---|120V AC|I(Kasa Switch)
+  I ---|AC Power|J(Surge Protector)
+  I ---|Wifi|K(NARC wifi)
+  A ---|Power Cable|E(Astron RS-35A)
+  B ---|Coax Ant1|D(Antenna Connectors)
+  H ---|AC Power|J
+```
  
 ### Software summary
 

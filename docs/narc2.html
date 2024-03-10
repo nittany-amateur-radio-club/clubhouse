@@ -20,40 +20,6 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
 </style>
 
 
@@ -95,6 +61,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     "search-label": "Search"
   }
 }</script>
+<script src="site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
 
 </head>
@@ -249,6 +218,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a>
   <ul class="collapse">
   <li><a href="#equipment-summary" id="toc-equipment-summary" class="nav-link" data-scroll-target="#equipment-summary">Equipment summary</a></li>
+  <li><a href="#connection-scheme" id="toc-connection-scheme" class="nav-link" data-scroll-target="#connection-scheme">Connection scheme</a></li>
   <li><a href="#software-summary" id="toc-software-summary" class="nav-link" data-scroll-target="#software-summary">Software summary</a></li>
   </ul></li>
   <li><a href="#flex-6400m-hf-transceiver" id="toc-flex-6400m-hf-transceiver" class="nav-link" data-scroll-target="#flex-6400m-hf-transceiver">Flex 6400M HF Transceiver</a>
@@ -296,6 +266,42 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li>Elecraft power supply</li>
 </ul></li>
 </ul>
+</section>
+<section id="connection-scheme" class="level3">
+<h3 class="anchored" data-anchor-id="connection-scheme">Connection scheme</h3>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<div>
+<pre class="mermaid mermaid-js">flowchart TD
+  A[Flex 6400M] ---|Coax-Ant1|B[KPA-1500 Ant 1]
+  B ---|50A PowerPole|T[Elecraft Power Supply]
+  T ---|220V AC|U(220V outlet)
+  J ---|120V AC|V(110V outlet)
+  A ---|Cat 6|L
+  A ---|Tx1 RCA Rem|B
+  A --&gt; N(Clipper footswitch)
+  A ---|RCA|Q(Relay)
+  Q --- R(Kasa Switch)
+  R --- J
+  A ---|USB|C[NARC2 PC]
+  C ---|USB|F(Keyboard)
+  C ---|Bluetooth|G(Mouse)
+  C ---|HDMI|H(Monitor)
+  C ---|CAT 6|L(Network Switch)
+  C ---|USB|P(FlexControl Knob)
+  J ---|AC Power|C
+  E ---|120V AC|I(Kasa Switch)
+  I ---|AC Power|J[Surge Protector]
+  I ---|Wifi|K(NARC wifi)
+  A ---|Power Cable|E[Astron RS-35A]
+  B ---|Coax Ant1|D(Antenna Connectors)
+  H ---|AC Power|J
+</pre>
+</div>
+</div>
+</div>
+</div>
 </section>
 <section id="software-summary" class="level3">
 <h3 class="anchored" data-anchor-id="software-summary">Software summary</h3>
@@ -409,80 +415,6 @@ Note
 </section>
 <section id="basic-controls" class="level3">
 <h3 class="anchored" data-anchor-id="basic-controls">Basic controls</h3>
-<ul>
-<li>Audio levels for the two VFOs are controlled via separate knobs on the left side of the front panel.</li>
-</ul>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">"include/img/ic-7610-af.png"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output-display">
-<p><img src="include/img/ic-7610-af.png" class="img-fluid"></p>
-</div>
-</div>
-<ul>
-<li>You may switch operating bands in one of two ways:
-<ul>
-<li>Buttons located on the right side of the front panel</li>
-<li>Pressing the frequency on the touch screen.</li>
-</ul></li>
-</ul>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">"include/img/ic-7610-chg-band.png"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output-display">
-<p><img src="include/img/ic-7610-chg-band.png" class="img-fluid"></p>
-</div>
-</div>
-<ul>
-<li>Switch operating modes by pressing the mode button on the touch panel.</li>
-</ul>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">"include/img/ic-7610-chg-mode.png"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output-display">
-<p><img src="include/img/ic-7610-chg-mode.png" class="img-fluid"></p>
-</div>
-</div>
-<p>This opens a window where you can choose the mode of operation. - Hit the arrow button to close the window and save your choice.</p>
-<ul>
-<li>Turn digital noise reduction on or off by pressing the NR button on the left side of the front panel. When NR is on, the NR button will be illuminated.
-<ul>
-<li>To adjust the amount of noise reduction, press and hold the NR button to open a window on the upper right corner of the touch panel display.</li>
-<li>Turn the MULTI key to adjust the level of noise reduction.</li>
-<li>Close the NR window by pressing the MULTI key or by pressing the NR button.</li>
-</ul></li>
-<li>Adjust preamplifier (<code>P.AMP</code>) settings, automatic gain control (<code>AGC</code>), Intercept Point (<code>IP+</code>), <code>VOX</code>, and compression (<code>COMP</code>) settings by pressing the corresponding button on the left side of the touch/display screen.</li>
-</ul>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">"include/img/ic-7610-left-touch-buttons.png"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output-display">
-<p><img src="include/img/ic-7610-left-touch-buttons.png" class="img-fluid"></p>
-</div>
-</div>
-<ul>
-<li>Adjust touch/display screen settings via the MENU1/MENU2 buttons at the bottom of the touch/display screen.</li>
-</ul>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">"include/img/ic-7610-menu-touch-buttons.png"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output-display">
-<p><img src="include/img/ic-7610-menu-touch-buttons.png" class="img-fluid"></p>
-</div>
-</div>
-<ul>
-<li>Select receive filter settings via the <code>FILTER</code> button on the right side of the front panel, below the <code>TWIN PBT</code> knob.</li>
-</ul>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">"include/img/ic-7610-filter.png"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output-display">
-<p><img src="include/img/ic-7610-filter.png" class="img-fluid"></p>
-</div>
-</div>
-<ul>
-<li>Set RF power by pressing the MULTI button to open a window on the display/touch screen. Press the RF POWER panel to select it, and adjust the output power by turning the MULTI knob.</li>
-</ul>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">"include/img/ic-7610-multi.png"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output-display">
-<p><img src="include/img/ic-7610-multi.png" class="img-fluid"></p>
-</div>
-</div>
 
 
 </section>

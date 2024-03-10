@@ -69,61 +69,10 @@ Power up the KPA1500 by pressing the `on` switch on the lower right hand side of
 
 The Flex 6400M is connected via USB to the NARC-2 PC.
 
-Open your logging program of choice. NARC has licenses for N1MM and N3FJP's Amateur Contact Log.
+Open your logging program of choice. 
+NARC has licenses for N1MM and N3FJP's Amateur Contact Log.
 
 To operate digital modes (e.g., FT8/FT4, JS8Call, fldigi), open those programs. 
 See instructions for operating these modes in separate documents.
 
 ### Basic controls
-
-- Audio levels for the two VFOs are controlled via separate knobs on the left side of the front panel.
-
-```{r}
-knitr::include_graphics("include/img/ic-7610-af.png")
-```
-
-- You may switch operating bands in one of two ways:
-    - Buttons located on the right side of the front panel
-    - Pressing the frequency on the touch screen.
-
-```{r}
-knitr::include_graphics("include/img/ic-7610-chg-band.png")
-```
-
-- Switch operating modes by pressing the mode button on the touch panel. 
-
-```{r}
-knitr::include_graphics("include/img/ic-7610-chg-mode.png")
-```
-
-This opens a window where you can choose the mode of operation.
-    - Hit the arrow button to close the window and save your choice.
-    
-- Turn digital noise reduction on or off by pressing the NR button on the left side of the front panel. 
-When NR is on, the NR button will be illuminated.
-    - To adjust the amount of noise reduction, press and hold the NR button to open a window on the upper right corner of the touch panel display.
-    - Turn the MULTI key to adjust the level of noise reduction.
-    - Close the NR window by pressing the MULTI key or by pressing the NR button.
-- Adjust preamplifier (`P.AMP`) settings, automatic gain control (`AGC`), Intercept Point (`IP+`), `VOX`, and compression (`COMP`) settings by pressing the corresponding button on the left side of the touch/display screen.
-
-```{r}
-knitr::include_graphics("include/img/ic-7610-left-touch-buttons.png")
-```
-
-- Adjust touch/display screen settings via the MENU1/MENU2 buttons at the bottom of the touch/display screen.
-
-```{r}
-knitr::include_graphics("include/img/ic-7610-menu-touch-buttons.png")
-```
-
-- Select receive filter settings via the `FILTER` button on the right side of the front panel, below the `TWIN PBT` knob.
-
-```{r}
-knitr::include_graphics("include/img/ic-7610-filter.png")
-```
-
-- Set RF power by pressing the MULTI button to open a window on the display/touch screen. Press the RF POWER panel to select it, and adjust the output power by turning the MULTI knob.
-
-```{r}
-knitr::include_graphics("include/img/ic-7610-multi.png")
-```
