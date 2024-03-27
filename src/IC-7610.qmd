@@ -8,6 +8,13 @@ title: "Icom IC-7610"
 
 This transceiver is currently connected to the NARC1 station computer.
 
+### Icom manuals
+
+Here are links to the IC-7610 manuals:
+
+- [Basic manual](include/pdf/IC-7610_basic.pdf)
+- [Advanced manual](include/pdf/IC-7610-advanced.pdf)
+
 ### Starting up
 
 - The IC-7610/NARC1 is located closest to the main door off the porch.

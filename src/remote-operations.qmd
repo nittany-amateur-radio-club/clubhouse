@@ -11,7 +11,7 @@ The experiments have been conducted during the time of the year when lightning i
 
 The steps are as follows:
 
-1. Connect to the VPN
+1. Connect to the VPN.
 
 2. Power up the radio via the Kasa app or the NARC Node Red server.
 

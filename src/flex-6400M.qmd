@@ -8,6 +8,13 @@ title: "FlexRadio Flex 6400M"
 
 This transceiver is currently connected to the NARC-2 computer.
 
+### Manuals
+
+Here are links to some useful FlexRadio manuals:
+
+- [SmartSDR software user guide](include/pdf/SmartSDR-software-user-guide.pdf)
+- [Flex-6400M user guide](include/pdf/FLEX-6400M-and-FLEX-6600M-User-Guide-v3.x.pdf)
+
 ### Connect and power-up
 
 1. Connect the Flex 6400M to an antenna.

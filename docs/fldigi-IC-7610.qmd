@@ -21,13 +21,12 @@ It’s not essential to confirm the settings each time you start up, but doing s
 In flrig, open the Config menu and select Setup > Transceiver.
 This opens a separate window.
 
-Rig: IC-7610</br>
-Ser Port: COM3</br>
-Baud: 38400</br>
-(Stop bits:) 1</br>
-PTT via CAT checked</br>
-
-CI-V adr:0x98 </br>
+*Rig*: `IC-7610`</br>
+*Ser Port*: `COM3`</br>
+*Baud*: `38400`</br>
+*(Stop bits)*: `1`</br>
+*PTT via CAT*: `checked`</br>
+*CI-V adr*: `0x98`</br>
 
 You may now close the Configuration window by pressing the CLOSE button or close window (X) button.
 
@@ -67,11 +66,11 @@ The following settings can be changed via buttons on the left side of the touch/
 
 ![IC-7610 left panel controls](include/img/ic-7610-left-touch-buttons.png)
 
-- Preamp (P.AMP) off
+- Preamp (*P.AMP*) off
 
 Press the P.AMP button to cycle through the settings (OFF, P.AMP 1, P.AMP 2)
 
-- Attenuator (ATT) off
+- Attenuator (*ATT*) off
 
 Press the ATT button to cycle through the attenuator settings (OFF, 6 dB, 12 dB, 18 dB)
 
@@ -79,7 +78,7 @@ Press the ATT button to cycle through the attenuator settings (OFF, 6 dB, 12 dB,
 
 Press the IP+ button to select ON or OFF
 
-- Turn Automatic Gain Control (AGC) off
+- Turn Automatic Gain Control (*AGC*) off
 
 Press and hold the AGC button on the display/touch screen.
 This opens a panel.
@@ -87,13 +86,13 @@ Under the SSB column, select the SLOW setting.
 Adjust the AGC level downward until the indicator says OFF.
 Press the arrow/return button on the display/touch screen to enter the setting.
 
-- VOX off
+- *VOX* off
 
-- Noise reduction (NR) off
+- Noise reduction (*NR*) off
 
 Press the NR button on the left side of the front panel to turn off the illuminator.
 
-- Noise blanker (NB) off
+- Noise blanker (*NB*) off
 
 Press the NB button on the left side of the front panel to turn off the illuminator.
 
@@ -114,4 +113,3 @@ Generally speaking, 40-50 W RF output is more than sufficient for successful ope
 
 It's possible to use the amplifier for fldigi-supported modes, but we do not recommend it.
 These modes involve high duty cycles and put a lot of stress on the amplifier.
-

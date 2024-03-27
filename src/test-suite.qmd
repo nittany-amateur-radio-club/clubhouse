@@ -25,7 +25,7 @@ This chapter describes the suite of tests that we use to make sure that our stat
 - Check <https://www.n3fjp.com/> to determine latest version of software.
 - Download and install if there is an update.
 - Open Amateur Contact Log; a shortcut is on the PC desktop
-- Confirm that version is __________ (last 7.0.9)
+- Confirm that version (last 7.0.9)
 - Confirm that ACL tracks of frequency changes & mode changes
 - Close application
 
@@ -41,7 +41,7 @@ This chapter describes the suite of tests that we use to make sure that our stat
 ### WSJT-X
 
 - Open WSJT-X
-- Confirm that version is __________ (last 2.5.4)
+- Confirm that version (last 2.5.4)
 - Select W3YA configuration
 - Test WSJT-X receive
 - Switch to suitable band for antenna from within WSTJ-X application
@@ -72,7 +72,7 @@ TODO: More complete steps
 ### JS8Call
 
 - Open JS8Call
-- Confirm version is __________ (last 2.2.0)
+- Confirm version (last 2.2.0)
 - Select W3YA configuration
 - Test JS8Call receive
 - Switch to suitable band for antenna (most JS8Call activity is on 40 m)
@@ -97,17 +97,26 @@ TODO: Complete steps
 - Confirm version is ____________ (last 4.1.26)
 - On IC-7610, confirm that flrig opens and shows current operating frequency
 
-::: {.callout-note}
+::: {.callout-tip}
 
-Operating parameters for IC-7610:
+### Operating parameters for IC-7610:
 
-Rig: IC-7610</br>
-COM3</br>
-Baud 38400</br>
-1 stop bit</br>
-CI-V 0x98
+*Rig*: IC-7610</br>
+*COM3*</br>
+*Baud*: 38400</br>
+*Stop bits*: 1 stop bit</br>
+*CI-V*: 0x98
 
 :::
+
+::: {.callout-tip}
+
+### Operating parameters for Flex-6400M
+
+TODO: Add these.
+
+:::
+
 
 - 7.070 MHz is a watering hole for PSK31 activity on 40m. You might look there to test receive and transmit.
 - Check transmit

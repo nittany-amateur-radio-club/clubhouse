@@ -1,0 +1,34 @@
+---
+title: "Software"
+format: html
+---
+
+This page documents some of the software we have installed on the NARC computers.
+
+## Remote control
+
+- [SmartSDR](https://www.flexradio.com/software/smartsdr-v3-7-4/), v3.7.4
+- [Win4Icom](https://icom.va2fsq.com), v
+
+## Logging
+
+- [Amateur Contact Log (N3FJP)](http://www.n3fjp.com), v7.0.9
+- [N1MM Plus](https://n1mmwp.hamdocs.com)
+
+## Digital modes
+
+- [fldigi W1HJK suite](http://www.w1hkj.com)
+  - flrig
+  - flmsg
+  - flamp
+  - flwrap
+- [WSTJ-X](https://wsjt.sourceforge.io/wsjtx.html)
+- [JTAlert](https://hamapps.com/JTAlert/)
+- [JS8Call](http://js8call.com)
+- [Winlink](https://winlink.org)
+  - [VARA](https://rosmodem.wordpress.com)
+    - VARA FM
+    - VARA HF
+- [VarAC](https://www.varac-hamradio.com)
+- [MMSTV-YONIQ](https://hamsoft.ca/pages/mmsstv-yoniq.php)
+
