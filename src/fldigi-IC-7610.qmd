@@ -21,12 +21,15 @@ It’s not essential to confirm the settings each time you start up, but doing s
 In flrig, open the Config menu and select Setup > Transceiver.
 This opens a separate window.
 
-*Rig*: `IC-7610`</br>
-*Ser Port*: `COM3`</br>
-*Baud*: `38400`</br>
-*(Stop bits)*: `1`</br>
-*PTT via CAT*: `checked`</br>
-*CI-V adr*: `0x98`</br>
+| Parameter | Value | Comments |
+|-----------|-------|----------|
+| Rig       | IC-7610 |       |
+| Ser Port    | COM3  |       |
+| Baud        | 38400 |       |
+| Parity | N or none     |       |
+| (Stop bits) | 1     |       |
+| PTT via CAT | $\checkmark$ |   |
+| CI-V adr    | 0x98      |   |
 
 You may now close the Configuration window by pressing the CLOSE button or close window (X) button.
 

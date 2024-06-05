@@ -29,17 +29,19 @@ Set any Display or Behavior settings per your personal preferences.
 
 Change these at your own risk.
 
-Rig: `Icom IC-7610`</br>
-CAT Control: `COM3`</br>
-Baud Rate: `38400`</br>
-Data Bits: `8 bits`</br>
-Stop Bits: `none`</br>
-Handshake: `none`</br>
-Force Control Lines: unset</br>
-
-PTT method: `CAT` (port should be COM3)</br>
-Mode: `Data/pkt`</br>
-Split operation: `Rig` or `Fake It`</br>
+| Parameter | Value | Comments |
+|-----------|-------|----------|
+| Rig       | Icom IC-7610 |       |
+| Ser Port    | COM3  |       |
+| Baud        | 38400 |       |
+| Data Bits   | 8 bits |      |
+| Parity     | none   |      |
+| (Stop bits) | 1     |       |
+| Handshake | none | |
+| Force Control Lines: | unset |
+| PTT method | CAT (port should be COM3) | |
+| Mode |  Data/pkt | |
+| Split operation | `Rig` or `Fake It`| |
 
 You may want to check/confirm that rig control is working by pushing the Test CAT button in this panel. 
 If the button turns green, then the rig and computer are communicating.
@@ -53,8 +55,10 @@ If so, all is well.
 
 *Audio tab:*
 
-Input: `USB Audio Codec`
-Output: `USB Audio Codec`
+| Parameter | Value | Comments |
+|-----------|-------|----------|
+| Input     | USB Audio Codec | |
+| Output    | USB Audio Codec | |
 
 *Reporting tab*
 
