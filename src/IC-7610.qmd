@@ -119,7 +119,7 @@ When NR is on, the NR button will be illuminated.
     - Close the NR window by pressing the MULTI key or by pressing the NR button.
 - Adjust preamplifier (`P.AMP`) settings, automatic gain control (`AGC`), Intercept Point (`IP+`), `VOX`, and compression (`COMP`) settings by pressing the corresponding button on the left side of the touch/display screen.
 
-![IC-7610 left panel controls](include/img/ic-7610-left-touch-buttons.png){#fig-ic-7610-left-touch-buttons.png}
+![IC-7610 left panel controls](include/img/ic-7610-left-touch-buttons.png){#fig-ic-7610-left-touch-buttons}
 
 - Adjust touch/display screen settings via the MENU1/MENU2 buttons at the bottom of the touch/display screen illustrated in @fig-ic-7610-menu-touch-buttons.
 
