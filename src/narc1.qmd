@@ -1,6 +1,10 @@
 ---
 title: "NARC-1"
-code-fold: true
+format: 
+  html:
+    code-fold: true
+    format-links: [pdf]
+  pdf: default
 ---
 
 ## Overview
