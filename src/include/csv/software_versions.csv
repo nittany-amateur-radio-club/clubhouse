@@ -1,13 +1,24 @@
-station,software,version,type
-narc1,WSTJ-X,2.5.4,digital
-narc1,JTAlert,2.50.0,digital
-narc1,GridTracker,1.24.0512,digital
-narc1,JS8Call,2.2.0,digital
-narc1,Winlink,1.7.15.0,digital
-narc1,VARA HF,4.8.7,digital
-narc1,VarAC,9.1.0,digital
-narc1,Yoniq (SSTV),,digital
-narc1,ACLog,7.0.10,logging
-narc1,N1MM+,,logging
-narc1,MS Windows,10,os
-narc1,Win4Icom,,remote
+station,software,version,type,date
+narc1,WSTJ-X,2.5.4,digital,2024-05-22
+narc1,JTAlert,2.50.0,digital,2024-05-22
+narc1,GridTracker,1.24.0512,digital,2024-05-22
+narc1,JS8Call,2.2.0,digital,2024-05-22
+narc1,Winlink Express,1.7.15.0,digital,2024-05-22
+narc1,VARA HF,4.8.7,digital,2024-05-22
+narc1,VarAC,9.1.0,digital,2024-05-22
+narc1,Yoniq (SSTV),,digital,2024-05-22
+narc1,ACLog,7.0.10,logging,2024-05-22
+narc1,N1MM+,,logging,2024-05-22
+narc1,MS Windows,10,os,2024-05-22
+narc1,Win4Icom,,remote,2024-05-22
+narc1,fldigi,Unknown,digital,2024-06-08
+narc2,SmartSDR,3.7.4,remote,2024-06-08
+narc2,ACLog,7.0.10,logging,2024-06-08
+narc2,WSJT-X,2.5.4,digital,2024-06-08
+narc2,JTAlert,2.60.2,digital,2024-06-08
+narc2,JS8Call,2.2.0,digital,2024-06-08
+narc2,fldigi,4.1.8,digital,2024-06-08
+narc2,Winlink Express,1.7.16.0,digital,2024-06-08
+narc2,VARA HF,4.8.7,digital,2024-06-08
+narc2,VarAC,9.1.0,digital,2024-06-08
+narc2,MS Windows,10,os,2024-06-08
