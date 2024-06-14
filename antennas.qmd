@@ -3,6 +3,8 @@ title: "Antennas"
 ---
 
 The mountaintop station has many antennas from which to choose.
+We have rotatable Yagis and fixed position dipoles.
+We have resonant antennas on 160m, 80m, 40m, 20m, 17m, 15m, 12m, 10m, and very soon, 6m.
 This page describes them.
 
 ## Towers
@@ -14,7 +16,7 @@ With the help of K3ARL's team from Centre Communications, the club maintains fou
 - 4 element Mosley triband (10, 15, 20m + WARC bands - 12 and 17m) Yagi
 - 40m dipole
 
-![60 foot tower](include/img/60-ft-tower-west.jpg)
+![60 foot tower](include/img/60-ft-tower-west.jpg){#fig-60-ft-tower}
 
 ### 100 foot tower
 
@@ -46,13 +48,32 @@ With the help of K3ARL's team from Centre Communications, the club maintains fou
 ### 10, 12, 15, 17, 20m
 
 - 4 element triband (10, 15, 20m + WARC bands - 12 and 17m) Yagi (on 60 foot tower)
-    - Yaesu rotator (new in 2023)
-    - Green Heron rotator controller (new in 2023)
 - 4 element Mosley Classic triband (10, 15, 20m + WARC bands - 12 and 17m) Yagi (on 80 foot tower) (new in 2023)
-    - Yaesu rotator (new in 2023)
-    - Green Heron rotator controller (new in 2023)
     
-### 40 m
+#### Rotator and Controller
+
+Both Mosley triband antennas are moved by (new in 2023) Yaesu G-2800 rotators.
+
+![Yaesu G-2800 rotator](include/img/yaesu-g-2800dxa_xl.jpg){#fig-yaesu-g-2800-rotator}
+
+A Green Heron [RT-21 Rotator Controller](https://www.greenheronengineering.com/product/rotator-controller-rt-21/) controls each Yaesu rotator.
+
+![Green Heron RT-21](include/img/green-heron-RT-21_1-Front.jpg){#fig-green-heron-rt-21}
+
+##### Manuals
+
+- [Yaesu G-2800 rotator manual](include/pdf/yaesu-g-2800dxa.pdf) and [calibration procedure](include/pdf/yaesu-g-1000dxa-calibration.pdf).
+
+- [Green Heron RT-21 Rotator Controller manual](include/pdf/green-heron-RT-21-rotator-manual.pdf) and [version 4 revision notes](include/pdf/green-heron-RT-21-rotator-manual-version-4-rev-4.pdf).
+
+::: {.callout-note}
+### Coming soon...
+
+Mark K0LO is configuring a PC server so that all of the NARC computers can control the rotators.
+
+::::
+
+### 40m
 
 - ~~Dipole (on 100 foot tower )~~
   - Current out of service.
@@ -102,4 +123,4 @@ The club hopes to install the replacement in Fall 2023.
 
 - Confirm that it is impossible for your transceiver to transmit while you are connecting your transceiver's (color-tagged) feedline to one of the antenna connectors.
 - Switch antennas manually by connecting your radio feedline from array of antenna connectors on the north wall.
-- When you leave the shack, disconnect the transceiver feedline from the antenna you were using.
+- When you leave the shack, disconnect the transceiver feedline from the antenna you were using and hang it on one of the hooks on the wall using the attached paracord.
