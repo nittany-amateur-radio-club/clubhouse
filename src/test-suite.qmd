@@ -6,6 +6,9 @@ This chapter describes the suite of tests that we use to make sure that our stat
 
 ## Monthly
 
+W3TM tries and usually succeeds in running these steps on both NARC1 and NARC2 once a month.
+The results of the tests are captured in a Google doc.
+
 ### Power-up
 
 - Connect rig to a suitable antenna or dummy load
@@ -27,7 +30,7 @@ This chapter describes the suite of tests that we use to make sure that our stat
 - Check <https://www.n3fjp.com/> to determine latest version of software.
 - Download and install if there is an update.
 - Open Amateur Contact Log; a shortcut is on the PC desktop
-- Confirm version
+- Confirm version and record it.
 - Confirm that ACL tracks of frequency changes & mode changes
 - Close application
 
