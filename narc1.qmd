@@ -15,7 +15,7 @@ NARC-1 is the first HF station on your left as you enter the station.
 
 ### Equipment summary
 
-- [Icom IC-7610 (HF + 6m) transceiver](ic-7610.qmd)
+- [Icom IC-7610 (HF + 6m) transceiver](icom-ic-7610.qmd)
     - Astron RS-35A power supply
 - Icom SM-50 desk mic
 - Clipper PTT footswitch
@@ -111,4 +111,4 @@ narc1 |>
 
 ### Operating Guide
 
-The operating guide for the IC-7610 is [here](ic-7610.qmd).
+The operating guide for the IC-7610 is [here](icom-ic-7610.qmd).
