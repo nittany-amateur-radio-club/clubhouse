@@ -48,6 +48,8 @@ software_versions |>
   knitr::kable(format = "html") 
 ```
 
+See the separate chapter on [logging](logging.qmd) for details about how to interface digital logging programs, especially networked logging (as in Field Day) and logging for digital mode programs.
+
 ## Remote Control
 
 ```{r}

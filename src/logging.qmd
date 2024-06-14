@@ -1,0 +1,85 @@
+---
+title: "Logging"
+format: html
+---
+
+## About
+
+This page describes some settings and procedures specific to using logging software.
+The information is especially relevant to multi-transmitter/operator settings such as Field Day.
+
+## Amateur Contact Log
+
+[Amateur Contact Log (AClog) by N3FJP](http://www.n3fjp.com) is one of the logging packages installed on the NARC PCs.
+
+Amateur Contact Log has separate programs for general logging and specific contests like Field Day.
+The club has a license for the software, and this provides access codes for all of the logging programs.
+
+### Networked logging
+
+For group contest-style events, it's useful to have multiple rigs generate a single log file.
+This is called "networked logging".
+Here is some resources useful for getting this to work for Field Day
+
+<http://www.n3fjp.com/FDInfoTips.html>
+
+There are two types of networked logging, file share and TCP.
+
+::: {.callout-note}
+## Key points for networking N3FJP's Field Day log via "File Share"
+
+- Set up your network (you can Google "Set up home network" for all the information you need to get you going).
+
+- Put the LogData.mdb file in a folder that is accessible to all the PCs on the network. Tip - with later operating systems, groups often find it easier to attach and share an external hard drive or thumb drive to their server, than share their server's C drive.
+
+- Make sure the Field Day software is pointing to the correct log file by clicking File > Open, navigating to the file and selecting it.
+
+- Make sure that your Internet / Virus Protection software is allowing the program to communicate.
+
+- Enable permissions to Update (not just read) on the drive, folder and log data file.
+
+:::
+
+::: {.callout-note}
+
+## Key points for networking N3FJP's Field Day log via TCP
+
+- First coded in July 2013, this option piggybacks on the functionality of the Status and Chat functions, to distribute adds, edits and deletes via TCP.
+
+- All PCs must enable the Status and Chat functions, which connect to the server on port 1000. If you have virus / Internet protection software, you must set your protection software on the server and EVERY client to allow this program to communicate on port 1000.
+
+- Does NOT require each client to navigate to the log file, so you don't have to worry about file share permissions.
+
+- The server should host the file locally on its hard drive, not over the network, to eliminate any possibility of network file access delays. Choose your PC with the fastest processor and most RAM for the server.
+
+- While loading the file may take longer via TCP, All Adds, Edits and Deletes should appear within one second on all clients.
+
+- ONLY the SERVER will and have the ability to perform many of the File menu options. This can be an advantage or disadvantage, depending on which functions you want the clients to be able to perform.
+
+- If your Network Status Display Form version reads 1.2 or later, in addition to the server, the TCP clients can also be set to write backups.
+
+- All PCs must select the same networking method. You can not mix and match! Either use File Share or TCP for every PC.
+
+- With the TCP method, more will be asked of the server, so processor timed sending of CW may be less precise.
+
+:::
+
+### Digital mode logging
+
+Here is a resource for connecting N3FJP's software to various digital mode programs:
+
+<http://www.n3fjp.com/help/digitalsetup.html>
+
+::: {.callout-note}
+## Tips
+
+- Start the N3FJP logging program first, before the digital mode program.
+- From N3FJP Software's menu options click Settings > Application Program Interface and check the upper check box that says TCP API Enabled (Server). Leave the lower check box unchecked.
+- Choose whether N3FJP or the digital mode program will control the rig interface.
+- Follow [these steps for WSJT-X](http://www.n3fjp.com/help/digitalsetup.html#wsjtx).
+- Follow [these steps for fldigi](http://www.n3fjp.com/help/digitalsetup.html#fldigi)
+- Follow [these steps for GridTracker](http://www.n3fjp.com/help/digitalsetup.html#gridtracker)
+- Follow [these steps for JTAlert](http://www.n3fjp.com/help/digitalsetup.html#jtalert)
+
+:::
+

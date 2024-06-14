@@ -29,6 +29,7 @@ book:
         - remote-operations.qmd
         - test-suite.qmd
         - software.qmd
+        - logging.qmd
   repo-url: https://github.com/nittany-amateur-radio-club/clubhouse
   repo-actions: [edit, issue]
   repo-subdir: src
