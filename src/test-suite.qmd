@@ -142,7 +142,7 @@ TODO: Add these.
 - When the channel is clear, start the session
 - Close Winlink Express/VARA
 
-### VarAC
+#### VarAC
 
 - Open VarAC
 - Confirm that VARA HF opens along with VarAC window.
@@ -153,7 +153,7 @@ TODO: Add these.
 - Transmit beacon
 - Wait 1-2 mins then check pskreporter.info: W3YA _____ was/______ was not heard
 
-### YONIQ (SSTV)
+#### YONIQ (SSTV)
 
 - Open YONIQ
 - Tune to SSTV frequency (e.g., 14.230 MHz)
@@ -162,7 +162,14 @@ TODO: Add these.
 TODO: Finish test suite
 :::
 
-## KPA1500 Amplifier
+### Win4IcomSuite
+
+- NARC1/IC-7610 station only
+- Open Win4Icom
+- Confirm program tracks frequency and mode
+- Close Win4Icom
+
+### KPA1500 Amplifier
 
 - Power on amplifier
 - Test ATU
@@ -181,12 +188,7 @@ TODO: Finish test suite
 - Power down amplifier
 - Return rig to SSB mode (press mode indicator on touch screen, select SSB)
 
-## Win4IcomSuite
 
-- NARC1/IC-7610 station only
-- Open Win4Icom
-- Confirm program tracks frequency and mode
-- Close Win4Icom
 
 ## Contest/Field Day
 
