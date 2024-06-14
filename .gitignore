@@ -4,3 +4,5 @@
 .Ruserdata
 clubhouse.Rproj
 .DS_Store
+/docs/
+/.quarto/

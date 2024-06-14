@@ -64,6 +64,15 @@ There are two types of networked logging, file share and TCP.
 
 :::
 
+For Field Day 2024, we are using TCP.
+Here is a screenshot of the settings for NARC1:
+
+![NARC1 N3FJP Field Day Log network settings](include/img/narc1-n3fjp-networked-logging-params.png){#fig-narc1-n3fjp-networked-logging}
+
+In this setup, NARC1 is the log server; NARC2 is a client.
+
+![NARC2 N3FJP Field Day Log network settings](include/img/narc2-n3fjp-networked-logging-params.png)
+
 ### Digital mode logging
 
 Here is a resource for connecting N3FJP's software to various digital mode programs:
