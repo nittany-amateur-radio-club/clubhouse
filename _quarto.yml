@@ -21,7 +21,7 @@ book:
         - packet_aprs.qmd
     - part: rigs.qmd
       chapters:
-        - ic-7610.qmd
+        #- ic-7610.qmd
         - flex-6400M.qmd
         - ic-718.qmd
         - kenwood-D710.qmd
