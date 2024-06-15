@@ -7,9 +7,11 @@ execute:
 
 book:
   title: "Nittany ARC Station Guide"
+  subtitle: "Version 2024-06-15-0649"
   author: "Rick Gilmore W3TM"
   output-file: "NARC-Clubhouse-Guide"
   cover-image: "include/img/60-ft-tower-west.jpg"
+  downloads: [pdf, epub]
   chapters:
     - index.qmd
     - logistics.qmd
@@ -35,7 +37,7 @@ book:
         - logging.qmd
   repo-url: https://github.com/nittany-amateur-radio-club/clubhouse
   repo-actions: [edit, issue]
-  repo-subdir: src
+  #repo-subdir: src
 format:
   html:
     theme: cosmo
@@ -44,4 +46,6 @@ format:
     fontsize: 1.2em
   pdf:
     documentclass: scrbook
+  epub:
+    cover-image: "include/img/60-ft-tower-west.jpg"
     
