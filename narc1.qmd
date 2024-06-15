@@ -29,6 +29,8 @@ NARC-1 is the first HF station on your left as you enter the station.
 ### Connection scheme
 
 ```{mermaid}
+%%| fig-width: 6.5
+%%| fig-cap: "Connection diagram for NARC1"
 flowchart TD
   A[IC-7610] ---|Coax-Ant1|B[KPA-1500 Ant 1]
   A ---|RCA ALC|B
@@ -109,4 +111,4 @@ narc1 |>
 
 ### Operating Guide
 
-The operating guide is found under [Rigs/IC-7610 section](ic-7610.qmd).
+The operating guide is found under [Rigs/IC-7610 section](icom-ic-7610.qmd).

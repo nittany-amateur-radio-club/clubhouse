@@ -11,7 +11,7 @@ book:
   author: "Rick Gilmore W3TM"
   output-file: "NARC-Clubhouse-Guide"
   cover-image: "include/img/60-ft-tower-west.jpg"
-  downloads: [pdf, epub]
+  downloads: [pdf]
   chapters:
     - index.qmd
     - logistics.qmd
@@ -46,6 +46,3 @@ format:
     fontsize: 1.2em
   pdf:
     documentclass: scrbook
-  epub:
-    cover-image: "include/img/60-ft-tower-west.jpg"
-    

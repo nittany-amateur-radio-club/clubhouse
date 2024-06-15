@@ -27,9 +27,3 @@ It is located to the right of NARC-2, and immediately to the left of the [packet
   - N1MM
   - Amateur Contact Log (ACLog) by N3FJP
 
-<!-- The full operating guide follows. It is a child document -->
-
-```{r, results='asis', echo=FALSE}
-a <- knitr::knit_child('IC-718.qmd', quiet=T)
-cat(a, sep="\n")
-```
