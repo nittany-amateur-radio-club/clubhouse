@@ -21,9 +21,10 @@ NARC 2 is the second HF station on your left as you enter the station.
 ### Connection scheme
 
 ```{mermaid}
-flowchart TD
 %%| fig-width: 6.5
+%%| fig-label: fig-narc2-connections
 %%| fig-cap: "Connection diagram for NARC2"
+flowchart TD
   A[Flex 6400M] ---|Coax-Ant1|B[KPA-1500 Ant 1]
   B ---|50A PowerPole|T[Elecraft Power Supply]
   T ---|220V AC|U(220V outlet)

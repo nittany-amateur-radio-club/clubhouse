@@ -30,6 +30,7 @@ NARC-1 is the first HF station on your left as you enter the station.
 
 ```{mermaid}
 %%| fig-width: 6.5
+%%| fig-label: fig-narc1-connections
 %%| fig-cap: "Connection diagram for NARC1"
 flowchart TD
   A[IC-7610] ---|Coax-Ant1|B[KPA-1500 Ant 1]
