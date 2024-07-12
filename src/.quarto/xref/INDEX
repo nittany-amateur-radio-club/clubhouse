@@ -1,0 +1,56 @@
+{
+  "index.qmd": {
+    "index.html": "d81635dd"
+  },
+  "logistics.qmd": {
+    "logistics.html": "ab430358"
+  },
+  "stations.qmd": {
+    "stations.html": "ab65d748"
+  },
+  "narc1.qmd": {
+    "narc1.html": "2b3ffc26"
+  },
+  "narc2.qmd": {
+    "narc2.html": "b94cab15"
+  },
+  "narc3.qmd": {
+    "narc3.html": "e7da997f"
+  },
+  "packet_aprs.qmd": {
+    "packet_aprs.html": "8e0dc3f6"
+  },
+  "rigs.qmd": {
+    "rigs.html": "5d9c1e30"
+  },
+  "icom-ic-7610.qmd": {
+    "icom-ic-7610.html": "f8f7562a"
+  },
+  "flex-6400M.qmd": {
+    "flex-6400M.html": "f285f8ec"
+  },
+  "ic-718.qmd": {
+    "ic-718.html": "919c22c4"
+  },
+  "kenwood-D710.qmd": {
+    "kenwood-D710.html": "a1c27231"
+  },
+  "antennas.qmd": {
+    "antennas.html": "1b632e61"
+  },
+  "wifi-internet.qmd": {
+    "wifi-internet.html": "85353c0c"
+  },
+  "remote-operations.qmd": {
+    "remote-operations.html": "044fc1d6"
+  },
+  "test-suite.qmd": {
+    "test-suite.html": "68d8de6d"
+  },
+  "software.qmd": {
+    "software.html": "f2616361"
+  },
+  "logging.qmd": {
+    "logging.html": "c1a67333"
+  }
+}
