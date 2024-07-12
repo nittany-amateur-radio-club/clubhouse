@@ -55,7 +55,6 @@ flowchart TD
   J[Astron RS-35A] ---|AC Power|C
 ```
 
-
 ```{mermaid}
 %%| fig-width: 6.5
 %%| fig-label: fig-narc1-connections
