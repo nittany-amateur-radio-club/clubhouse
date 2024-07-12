@@ -1,7 +1,4 @@
----
-title: "Logistics"
-format: html
----
+# Logistics
 
 ## Location
 
@@ -25,6 +22,9 @@ You'll receive your keys during the tour.
 Here is the sequence we prefer all members use when accessing the mountaintop station.
 
 - Unlock the yellow gate. Use the small key to unlock the padlock. The larger key opens the clubhouse itself. Take the padlock and locking bolt with you to the shack.
+
+![How to lock the gate](include/img/gate-lock.png)
+
 - Close the gate and replace the lock bar, but do not re-lock the gate.
 
 - If you know that others will be joining you soon, you may leave the gate open, but make sure to park cross-wise, blocking the past the shack. This ensures that no other driver can inadvertently drive past you and get locked behind the gate when you leave.
@@ -44,5 +44,5 @@ By default, we leave breakers 7-14 -- the baseboard and north wall 240 V heaters
     **Note**: The small key that opens the State Forest gate also opens the porta potty.
     - The toilet is serviced periodically. If it needs to be serviced, please let Rick W3TM know. 
 The porta potty is on the South side of the shack.
-- Please text W3TM K3ROG (814-777-3298), Eric W3EDP (814-867-3393), or Mike N3LI (814-404-3991) when you leave. 
+- Please text W3TM (814-777-3298), Eric W3EDP (814-867-3393), or Mike N3LI (814-404-3991) when you leave. 
 Please report any issues that need to be addressed.

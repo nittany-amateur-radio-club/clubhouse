@@ -60,8 +60,9 @@ In this setup, NARC1 is the log server; NARC2 is a client.
 
 To configure select Settings/Application Program Interface (API) from the AC Log menus.
 
-![AC Log API Window](include/img/narc1-aclog-api-settings-.png){#fig-narc1-aclog-api-settings}
-As @fig-narc1-aclog-api-settings indicates, click on **TCP API Enabled Server** checkbox and use the default port (1100).
+INCLUDE_FIGURE_HERE
+
+As THE FIGURE indicates, click on **TCP API Enabled Server** checkbox and use the default port (1100).
 Under **WSTJ-X Interface** select **Listen for WSJT-X*
 
 #### WSTJ-X

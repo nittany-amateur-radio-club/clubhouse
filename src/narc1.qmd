@@ -31,27 +31,49 @@ NARC-1 is the first HF station on your left as you enter the station.
 ```{mermaid}
 %%| fig-width: 6.5
 %%| fig-label: fig-narc1-connections
-%%| fig-cap: "Connection diagram for NARC1"
+%%| fig-cap: "Connection diagram for NARC1 IC-7610"
 flowchart TD
   A[IC-7610] ---|Coax-Ant1|B[KPA-1500 Ant 1]
   A ---|RCA ALC|B
   A ---|RCA Send|B
   A --> M(Morse Paddles)
-  A --> N(Clipper footswitch)
   A ---|USB|C[NARC1 PC]
+  A ---|Power Cable|E(Astron RS-35A)
+  K[Halibut Electronics Radio Pro] ---|ICOM Mic/PTT Cable|A
+```
+
+```{mermaid}
+%%| fig-width: 6.5
+%%| fig-label: fig-narc1-connections
+%%| fig-cap: "Connection diagram for NARC1 PC"
+flowchart TD
+  A[IC-7610] ---|USB|C[NARC1 PC]
   C ---|USB|F(Keyboard)
   C ---|Bluetooth|G(Mouse)
   C ---|HDMI|H(Monitor)
-  C ---|CAT 6|L(Network Switch)
-  J ---|AC Power| C
-  E ---|120V AC|I(Kasa Switch)
-  I ---|AC Power|J(Surge Protector)
-  I ---|Wifi|K(NARC wifi)
-  A ---|Power Cable|E(Astron RS-35A)
-  B ---|Coax Ant1|D(Antenna Connectors)
-  H ---|AC Power|J
+  C ---|CAT6|L(Network Switch)
+  J[Astron RS-35A] ---|AC Power|C
 ```
- 
+
+
+```{mermaid}
+%%| fig-width: 6.5
+%%| fig-label: fig-narc1-connections
+%%| fig-cap: "Connection diagram for NARC1 Halibut Electronics Audio"
+flowchart TD
+  K[Halibut Electronics Radio Pro] ---|ICOM Cable|A[IC-7610]
+  K ---|Cat5|J[Halibut Electronics Contest Console]
+  K ---|PowerPole|J
+  J ---|PowerPole|E(Astron RS-35A)
+  L[Heil Pro-7] --> M[Halibut Electronics User Pro]
+  N[Other headset] --> O[Halibut Electronics User Pro]
+  M ---|Cat5|J
+  O ---|Cat5|J
+  P[Ext Speaker] --- K
+  Q[Clipper footwitch] --- K
+```
+
+
 ### Software summary
 
 ::: {.callout-note}
