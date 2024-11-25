@@ -1,7 +1,8 @@
 {
-  "hash": "6a5ead2ff476b7b09f237509a0b72436",
+  "hash": "4e471657e281a87113ba690fe5adefa3",
   "result": {
-    "markdown": "---\ntitle: \"Preface\"\n---\n\n\n\n\n## About\n\nWelcome to the Nittany Amateur Radio Club's ([NARC](https://nittany-arc.org)) station guide.\nThe radio station is one of the best benefits of joining the club.\n\nRick Gilmore W3TM manages the station with the help of Mike Coslo N3LI, Eric Prescott W3EDP, and Woody Brem K3YV.\nMark Wharton K0LO provides computer networking support.\n\nThis site provides information about how to gain access to the mountaintop station and how to use the equipment.\n\nThe mountaintop station has been a focal point of activity for the club.\nWe operated Field Day 2023 from the station, and we have held W3M special event operations, Pennsylvania QSO Party activities, and other contesting events.\n\nFor a PDF version of this guide, click [here](NARC-Clubhouse-Guide.pdf).\n\n",
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Preface\"\n---\n\n\n\n\n\n\n\n\n\n\n## About\n\nWelcome to the Nittany Amateur Radio Club's ([NARC](https://nittany-arc.org)) station guide.\nThe radio station is one of the best benefits of joining the club.\n\nRick Gilmore W3TM manages the station with the help of Mike Coslo N3LI, Eric Prescott W3EDP, and Woody Brem K3YV.\nMark Wharton K0LO provides computer networking support.\n\nThis site provides information about how to gain access to the mountaintop station and how to use the equipment.\n\nThe mountaintop station has been a focal point of activity for the club.\nWe operated Field Day 2023 and 2024 from the station, and we have held W3M special event operations, Pennsylvania QSO Party activities, and other contesting events.\n\nFor a PDF version of this guide, click [here](NARC-Clubhouse-Guide.pdf).\n\n",
     "supporting": [],
     "filters": [
       "rmarkdown/pagebreak.lua"
