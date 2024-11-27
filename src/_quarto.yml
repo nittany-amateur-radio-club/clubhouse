@@ -44,5 +44,5 @@ format:
     number-sections: false
     date-modified: last-modified
     fontsize: 1.2em
-  pdf:
-    documentclass: scrbook
+  # pdf:
+  #   documentclass: scrbook
